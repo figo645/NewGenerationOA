@@ -10,7 +10,7 @@ import org.junit.Test;
 import net.sf.json.JSONObject;
 import net.sf.json.xml.XMLSerializer;
 import cn.edu.ken.model.Book;
-import cn.edu.ken.model.Contact;
+import cn.edu.ken.model.User;
 import junit.framework.Assert;
 import junit.framework.TestCase;
 
@@ -44,7 +44,7 @@ public class JSONTestUnit extends TestCase {
 		String s = "{\"name\":123}";       
         ObjectMapper mapper = new ObjectMapper();  
         //unmarshalling (reading JSON)    
-        Contact a = mapper.readValue(s, Contact.class);          
+        User a = mapper.readValue(s, User.class);          
         //marshalling (reading JSON)  
         //{"name":123}  
         System.out.println("testJSONJacksonTest003:"+mapper.writeValueAsString(a));  
