@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+/Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/925423817.index
+/mavenweb/src/main/resources
+/Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/123117705.index
+/mavenweb/src/main/resources

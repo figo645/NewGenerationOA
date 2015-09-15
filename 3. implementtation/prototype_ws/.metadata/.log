@@ -29,3 +29,20 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -product org.eclipse.epp
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-15 15:37:07.449
 !MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 2 2 2015-09-15 15:42:00.248
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2015-09-15 15:42:00.249
+!MESSAGE The project description file (.project) for 'mavenweb' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-15 15:44:55.689
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-15 15:44:55.691
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-15 15:45:00.584
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-15 15:45:00.587
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
