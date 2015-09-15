@@ -1,0 +1,21 @@
+2015-09-15 15:36:46,297 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+2015-09-15 15:36:46,301 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+2015-09-15 15:36:46,302 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse does not contain lifecycle mapping metadata
+2015-09-15 15:36:54,427 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/pom.xml.
+2015-09-15 15:36:55,908 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenweb/src/main/java
+2015-09-15 15:36:55,908 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenweb/src/main/resources
+2015-09-15 15:36:55,909 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenweb/src/test/java
+2015-09-15 15:36:56,024 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/pom.xml.
+2015-09-15 15:37:00,181 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Project import completed 7 sec
+2015-09-15 15:37:00,218 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-09-15 15:37:00,218 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2015-09-15 15:37:01,092 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/pom.xml.
+2015-09-15 15:37:01,518 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:37:01,526 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-15 15:37:01,533 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:37:01,534 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/src/test/resources
+2015-09-15 15:37:02,328 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/pom.xml.
+2015-09-15 15:37:07,445 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:37:07,447 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-15 15:37:07,449 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:37:07,449 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/src/test/resources
