@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<!DOCTYPE generatorConfiguration    
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"    
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">  
+  
+<generatorConfiguration>  
+    <classPathEntry  
+        location="mysql-connector-java-5.1.21.jar" />  
+  
+    <context id="DB2Tables" targetRuntime="MyBatis3">  
+<!--下面的配置使得生成的model中可以使用数据库中的Comment对字段进行注释-->  
+        <commentGenerator>  
+            <property name="suppressAllComments" value="false" />  
+        </commentGenerator>  
+  
+        <!-- JDBC 连接信息 -->  
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"  
+            connectionURL="jdbc:mysql://localhost:3306/dbname" userId="root"  
+            password="password">  
+        </jdbcConnection>  
+  
+        <javaTypeResolver>  
+            <property name="forceBigDecimals" value="false" />  
+        </javaTypeResolver>  
+  
+        <javaModelGenerator targetPackage="com.sdj.dao.model"  
+            targetProject="../../../../java">  
+            <property name="enableSubPackages" value="true" />  
+            <property name="trimStrings" value="true" />  
+        </javaModelGenerator>  
+  
+        <sqlMapGenerator targetPackage="com.sdj.dao.map"  
+            targetProject="../../../../java">  
+            <property name="enableSubPackages" value="true" />  
+        </sqlMapGenerator>  
+  
+<!--ANNOTATEDMAPPER属性值使得生成的Mapper是Annotation的-->  
+        <javaClientGenerator type="ANNOTATEDMAPPER"  
+            targetPackage="com.sdj.dao.map" targetProject="../../../../java">  
+            <property name="enableSubPackages" value="true" />  
+        </javaClientGenerator>  
+  
+        <table tableName="USER_ROLE" domainObjectName="UserRole"></table>  
+<!--useActualColumnNames属性使得生成的model中的属性与数据库表中的属性大小写一致-->  
+        <table tableName="USER_INFO" domainObjectName="UserInfo"><property name="useActualColumnNames" value="true" /></table>  
+    </context>  
+</generatorConfiguration>    

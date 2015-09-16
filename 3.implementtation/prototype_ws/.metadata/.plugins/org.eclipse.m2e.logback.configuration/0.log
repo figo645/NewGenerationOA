@@ -1,0 +1,570 @@
+2015-09-15 15:36:46,297 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+2015-09-15 15:36:46,301 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+2015-09-15 15:36:46,302 [ModalContext] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse does not contain lifecycle mapping metadata
+2015-09-15 15:36:54,427 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/pom.xml.
+2015-09-15 15:36:55,908 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenweb/src/main/java
+2015-09-15 15:36:55,908 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenweb/src/main/resources
+2015-09-15 15:36:55,909 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenweb/src/test/java
+2015-09-15 15:36:56,024 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/pom.xml.
+2015-09-15 15:37:00,181 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Project import completed 7 sec
+2015-09-15 15:37:00,218 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-09-15 15:37:00,218 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2015-09-15 15:37:01,092 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/pom.xml.
+2015-09-15 15:37:01,518 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:37:01,526 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-15 15:37:01,533 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:37:01,534 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/src/test/resources
+2015-09-15 15:37:02,328 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/pom.xml.
+2015-09-15 15:37:07,445 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:37:07,447 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-15 15:37:07,449 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:37:07,449 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/repository_ws/mavenweb/src/test/resources
+2015-09-15 15:44:55,346 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/pom.xml.
+2015-09-15 15:44:55,689 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:44:55,689 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-15 15:44:55,691 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:44:55,691 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-15 15:44:56,098 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/pom.xml.
+2015-09-15 15:45:00,584 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:45:00,586 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-15 15:45:00,587 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 15:45:00,588 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-15 16:24:52,234 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 16:24:52,236 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-15 16:24:52,237 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 16:24:52,238 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-15 16:25:32,125 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 16:25:32,127 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-15 16:25:32,128 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 16:25:32,129 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-15 16:25:41,855 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 16:25:41,856 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-15 16:25:41,856 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 16:25:41,857 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-15 16:25:54,736 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 16:25:54,737 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-15 16:25:54,739 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 16:25:54,739 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-15 16:26:07,078 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 16:26:07,080 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-15 16:26:07,081 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-15 16:26:07,081 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-16 00:55:36,647 [Worker-86] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/pom.xml.
+2015-09-16 00:55:37,090 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:55:37,091 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-16 00:55:37,092 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:55:37,093 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-16 00:55:37,093 [Worker-86] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mavenweb
+2015-09-16 00:55:37,094 [Worker-86] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mavenweb
+2015-09-16 00:55:37,135 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:55:41,320 [Worker-86] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/pom.xml.
+2015-09-16 00:55:41,491 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:55:41,492 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-16 00:55:41,492 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:55:41,493 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-16 00:55:41,493 [Worker-86] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mavenweb
+2015-09-16 00:55:41,493 [Worker-86] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mavenweb
+2015-09-16 00:55:41,495 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:56:20,521 [Worker-87] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/pom.xml.
+2015-09-16 00:56:20,686 [Worker-87] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 00:56:21,291 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator-maven-plugin/1.3.2/mybatis-generator-maven-plugin-1.3.2.pom
+2015-09-16 00:56:21,295 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator-maven-plugin/1.3.2/mybatis-generator-maven-plugin-1.3.2.pom
+2015-09-16 00:56:21,582 [Worker-87] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 00:56:21,924 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator/1.3.2/mybatis-generator-1.3.2.pom
+2015-09-16 00:56:21,933 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator/1.3.2/mybatis-generator-1.3.2.pom
+2015-09-16 00:56:22,357 [Worker-87] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 00:56:22,894 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/15/mybatis-parent-15.pom
+2015-09-16 00:56:23,517 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/15/mybatis-parent-15.pom
+2015-09-16 00:56:23,840 [Worker-87] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 00:56:24,282 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator-maven-plugin/1.3.2/mybatis-generator-maven-plugin-1.3.2.jar
+2015-09-16 00:56:24,443 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator-maven-plugin/1.3.2/mybatis-generator-maven-plugin-1.3.2.jar
+2015-09-16 00:56:24,765 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:56:24,766 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-16 00:56:24,767 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:56:24,767 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-16 00:56:24,767 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mavenweb
+2015-09-16 00:56:24,768 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mavenweb
+2015-09-16 00:56:24,770 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:56:30,955 [Worker-91] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb
+2015-09-16 00:56:30,956 [Worker-91] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 00:56:37,865 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:56:37,875 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-16 00:56:37,877 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:56:37,877 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-16 00:56:47,083 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb
+2015-09-16 00:56:47,083 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 00:56:53,405 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:56:53,414 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-16 00:56:53,417 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 00:56:53,417 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-16 00:57:33,871 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb
+2015-09-16 00:57:33,871 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B generate-sources
+2015-09-16 01:00:12,450 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/pom.xml.
+2015-09-16 01:00:12,646 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 01:00:12,647 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-16 01:00:12,648 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 01:00:12,649 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-16 01:00:24,657 [Worker-90] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/pom.xml.
+2015-09-16 01:00:24,898 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 01:00:24,899 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-16 01:00:24,901 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 01:00:24,901 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-16 01:00:24,901 [Worker-90] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mavenweb
+2015-09-16 01:00:24,902 [Worker-90] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mavenweb
+2015-09-16 01:00:24,908 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 01:03:30,017 [ModalContext] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 01:03:30,731 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/maven-metadata.xml
+2015-09-16 01:03:30,741 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/maven-metadata.xml
+2015-09-16 01:03:30,919 [ModalContext] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 01:03:31,223 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2015-09-16 01:03:31,232 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2015-09-16 01:04:46,758 [Worker-90] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 01:04:47,080 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2015-09-16 01:04:47,089 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2015-09-16 01:04:47,270 [pool-11-thread-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file:///Users/ken/.m2/repository/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2015-09-16 01:04:47,291 [Worker-90] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml
+2015-09-16 01:04:47,335 [Worker-90] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:04:47,659 [Worker-90] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dao/src/main/java
+2015-09-16 01:04:47,660 [Worker-90] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dao/src/test/java
+2015-09-16 01:04:47,693 [Worker-90] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Project import completed 0 sec
+2015-09-16 01:04:47,875 [Worker-97] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:04:47,974 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:04:47,974 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:04:47,976 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:04:47,976 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:04:48,728 [Worker-99] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:04:49,038 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:04:49,038 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:04:49,039 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:04:49,039 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:05:32,694 [Worker-99] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/pom.xml.
+2015-09-16 01:05:32,945 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 01:05:32,946 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-16 01:05:32,947 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 01:05:32,947 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-16 01:05:32,947 [Worker-99] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mavenweb
+2015-09-16 01:05:32,947 [Worker-99] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mavenweb
+2015-09-16 01:05:32,950 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 01:06:02,081 [Worker-100] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:06:02,111 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:06:02,111 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:06:02,112 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:06:02,112 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:06:06,544 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:06:06,544 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 01:06:11,192 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:06:11,200 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:06:11,208 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:06:11,208 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:06:36,155 [Worker-93] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:06:36,157 [Worker-93] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 01:06:36,595 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.pom
+2015-09-16 01:06:36,604 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.pom
+2015-09-16 01:06:36,813 [Worker-93] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 01:06:37,282 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.jar
+2015-09-16 01:06:38,203 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.2/mybatis-generator-core-1.3.2.jar
+2015-09-16 01:06:38,449 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:06:38,449 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:06:38,450 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:06:38,450 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:06:39,600 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:06:39,601 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:06:39,601 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:06:39,601 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:06:50,509 [Worker-102] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:06:50,537 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:06:50,537 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:06:50,538 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:06:50,538 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:07:53,276 [Worker-93] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:07:53,299 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:07:53,300 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:07:53,300 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:07:53,300 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:07:54,485 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:07:54,486 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:07:54,487 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:07:54,487 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:08:26,401 [Worker-102] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:08:26,418 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:08:26,418 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:08:26,419 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:08:26,419 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:08:31,554 [Worker-97] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:08:31,570 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:08:31,570 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:08:31,571 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:08:31,571 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:08:34,102 [Worker-100] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:08:34,118 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:08:34,118 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:08:34,119 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:08:34,119 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:08:42,059 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:08:42,059 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:08:42,060 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:08:42,060 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:08:54,053 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:08:54,060 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:08:54,062 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:08:54,062 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:09:58,740 [Worker-97] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:09:58,781 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:09:58,781 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:09:58,782 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:09:58,782 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:09:59,916 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:09:59,916 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:09:59,917 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:09:59,917 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:10:06,022 [Worker-102] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:10:06,023 [Worker-102] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 01:11:13,767 [Worker-102] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:11:13,776 [Worker-102] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 01:12:19,898 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:12:19,898 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2015-09-16 01:12:22,013 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:12:22,014 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:12:22,014 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:12:22,014 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:12:27,507 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:12:27,507 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 01:12:41,239 [Worker-100] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:12:41,294 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:12:41,294 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:12:41,296 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:12:41,296 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:12:43,774 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:12:43,774 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 01:12:47,877 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:12:47,878 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:12:47,881 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:12:47,882 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:12:57,299 [Worker-90] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:12:57,331 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:12:57,331 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:12:57,332 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:12:57,332 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:13:05,193 [Worker-102] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:13:05,215 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:13:05,215 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:13:05,216 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:13:05,216 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:13:08,605 [Worker-93] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:13:08,637 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:13:08,637 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:13:08,638 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:13:08,638 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:13:09,824 [Worker-100] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:13:09,859 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:13:09,859 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:13:09,860 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:13:09,860 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:13:15,303 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:13:15,303 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 01:13:46,041 [Worker-90] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:13:46,041 [Worker-90] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B generate-sources
+2015-09-16 01:16:18,488 [Worker-93] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:16:18,525 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:16:18,525 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:16:18,526 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:16:18,526 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:16:19,690 [Worker-90] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:16:19,720 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:16:19,720 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:16:19,721 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:16:19,721 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:17:10,382 [Worker-100] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:17:10,423 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:17:10,423 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:17:10,425 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:17:10,425 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:17:17,692 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:17:17,692 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 01:17:22,635 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:17:22,642 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:17:22,644 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:17:22,644 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:17:46,264 [Worker-93] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:17:46,264 [Worker-93] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B generate-sources
+2015-09-16 01:18:59,939 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:18:59,939 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:18:59,940 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:18:59,940 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:19:01,357 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:19:01,357 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:19:01,358 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:19:01,358 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:19:37,682 [Worker-90] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 01:19:37,691 [Worker-90] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 01:19:38,106 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.pom
+2015-09-16 01:19:38,115 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.pom
+2015-09-16 01:19:38,280 [Worker-90] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 01:19:38,583 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/24/mybatis-parent-24.pom
+2015-09-16 01:19:38,737 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/24/mybatis-parent-24.pom
+2015-09-16 01:19:38,909 [Worker-90] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2015-09-16 01:19:39,241 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar
+2015-09-16 01:19:40,540 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar
+2015-09-16 01:19:40,767 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:19:40,767 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:19:40,768 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:19:40,768 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:19:41,941 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:19:41,941 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:19:41,942 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:19:41,942 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:20:18,751 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:20:18,751 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:20:18,753 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:20:18,753 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:20:46,092 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:20:46,092 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:20:46,099 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:20:46,099 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:22:09,263 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:22:09,263 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:22:09,264 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:22:09,264 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:22:11,301 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:22:11,301 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:22:11,302 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:22:11,302 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:22:23,557 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:22:23,557 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:22:23,558 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:22:23,558 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:22:39,070 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:22:39,070 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:22:39,071 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:22:39,071 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:23:01,482 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:23:01,482 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:23:01,483 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:23:01,483 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:24:01,874 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:24:01,875 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:24:01,876 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:24:01,876 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:24:14,062 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:24:14,062 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:24:14,064 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:24:14,064 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:24:19,901 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:24:19,902 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:24:19,902 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:24:19,902 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:24:39,948 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:24:39,948 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:24:39,949 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:24:39,949 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:26:51,787 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:26:51,795 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:26:51,796 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:26:51,797 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:27:10,282 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:27:10,282 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:27:10,283 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:27:10,283 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:28:26,400 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:28:26,400 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:28:26,401 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:28:26,401 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:28:34,392 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:28:34,392 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:28:34,393 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:28:34,393 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:28:47,781 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:28:47,782 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 01:28:52,254 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:28:52,254 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:28:52,255 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:28:52,255 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:31:54,456 [Worker-104] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:31:54,456 [Worker-104] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 01:31:58,739 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:31:58,740 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 01:31:58,741 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 01:31:58,741 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 01:34:19,384 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-09-16 01:34:54,408 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:34:54,408 [Worker-100] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B mybatis-generator:generate
+2015-09-16 01:35:24,232 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2015-09-16 01:35:24,272 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 01:35:24,272 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B mybatis-generator:generate
+2015-09-16 11:15:20,041 [Worker-117] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 11:15:20,145 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:15:20,145 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 11:15:20,146 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:15:20,146 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 11:15:21,280 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:15:21,280 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 11:15:21,281 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:15:21,282 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 11:15:30,041 [Worker-115] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 11:15:30,042 [Worker-115] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 11:15:34,360 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:15:34,360 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 11:15:34,361 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:15:34,361 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 11:30:10,811 [Worker-117] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 11:30:10,874 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:30:10,874 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 11:30:10,875 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:30:10,875 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 11:30:25,015 [Worker-122] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao
+2015-09-16 11:30:25,015 [Worker-122] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2015-09-16 11:30:29,505 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:30:29,505 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 11:30:29,506 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:30:29,506 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 11:32:39,350 [Worker-110] ERROR o.e.m.c.i.p.WorkspaceStateWriter - Error writing workspace state file
+java.io.FileNotFoundException: /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method) ~[na:1.6.0_65]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194) ~[na:1.6.0_65]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145) ~[na:1.6.0_65]
+	at org.eclipse.m2e.core.internal.project.WorkspaceStateWriter.mavenProjectChanged(WorkspaceStateWriter.java:110) ~[org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:746) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:865) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:289) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.refresh(MavenProjectManager.java:67) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.getProjectFacade(MavenBuilder.java:216) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.call(MavenBuilder.java:91) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.call(MavenBuilder.java:1) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:161) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:137) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:89) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1305) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:89) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53) [org.eclipse.core.jobs_3.5.300.v20130429-1813.jar:na]
+2015-09-16 11:32:39,352 [Worker-110] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to remove cn/edu/ken/dao/0.0.1-SNAPSHOT/dao-0.0.1-SNAPSHOT.pom
+java.io.FileNotFoundException: /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_c.fdt (No such file or directory)
+	at java.io.RandomAccessFile.open(Native Method) ~[na:1.6.0_65]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:216) ~[na:1.6.0_65]
+	at org.apache.lucene.store.FSDirectory$FSIndexOutput.<init>(FSDirectory.java:639) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.store.FSDirectory.createOutput(FSDirectory.java:442) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.FieldsWriter.<init>(FieldsWriter.java:62) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.StoredFieldsWriter.initFieldsWriter(StoredFieldsWriter.java:65) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.StoredFieldsWriter.finishDocument(StoredFieldsWriter.java:141) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.StoredFieldsWriter$PerDoc.finish(StoredFieldsWriter.java:187) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter$WaitQueue.writeDocument(DocumentsWriter.java:1408) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter$WaitQueue.add(DocumentsWriter.java:1427) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.finishDocument(DocumentsWriter.java:1062) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:768) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.DocumentsWriter.addDocument(DocumentsWriter.java:743) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.addDocument(IndexWriter.java:1917) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.lucene.index.IndexWriter.addDocument(IndexWriter.java:1895) ~[lucene-core-2.4.1.jar:2.4.1 750176 - 2009-03-04 21:56:52]
+	at org.apache.maven.index.DefaultIndexerEngine.remove(DefaultIndexerEngine.java:177) ~[org.eclipse.m2e.maven.indexer_1.4.0.20130531-2315.jar:na]
+	at org.apache.maven.index.DefaultNexusIndexer.deleteArtifactFromIndex(DefaultNexusIndexer.java:350) ~[org.eclipse.m2e.maven.indexer_1.4.0.20130531-2315.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.removeDocument(NexusIndexManager.java:623) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.mavenProjectChanged(NexusIndexManager.java:757) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:746) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:865) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:289) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.refresh(MavenProjectManager.java:67) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.getProjectFacade(MavenBuilder.java:216) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.call(MavenBuilder.java:91) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.call(MavenBuilder.java:1) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:161) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:137) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:89) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1305) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:89) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53) [org.eclipse.core.jobs_3.5.300.v20130429-1813.jar:na]
+2015-09-16 11:32:39,353 [Worker-110] ERROR o.e.m.jdt.internal.BuildPathManager - Can't save classpath container state for dao
+java.io.FileNotFoundException: /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/.metadata/.plugins/org.eclipse.m2e.jdt/dao.container (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method) ~[na:1.6.0_65]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194) ~[na:1.6.0_65]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145) ~[na:1.6.0_65]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.saveContainerState(BuildPathManager.java:206) [org.eclipse.m2e.jdt_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.updateClasspath(BuildPathManager.java:195) [org.eclipse.m2e.jdt_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.mavenProjectChanged(BuildPathManager.java:180) [org.eclipse.m2e.jdt_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:746) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:865) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:289) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.refresh(MavenProjectManager.java:67) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.getProjectFacade(MavenBuilder.java:216) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.call(MavenBuilder.java:91) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.call(MavenBuilder.java:1) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:161) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:137) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:89) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1305) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:89) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241) [org.eclipse.core.resources_3.8.101.v20130717-0806.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53) [org.eclipse.core.jobs_3.5.300.v20130429-1813.jar:na]
+2015-09-16 11:34:35,885 [main] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't write workspace state
+java.io.FileNotFoundException: /Users/ken/Downloads/dev/ws/OA/3. implementtation/prototype_ws/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method) ~[na:1.6.0_65]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194) ~[na:1.6.0_65]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145) ~[na:1.6.0_65]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:127) ~[org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:870) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.MavenPluginActivator.stop(MavenPluginActivator.java:274) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at java.security.AccessController.doPrivileged(Native Method) [na:1.6.0_65]
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:400) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200) [org.eclipse.osgi_3.9.1.v20130814-1242.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_65]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450) [org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar:na]
+2015-09-16 11:35:27,791 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 11:35:28,515 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:35:28,515 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 11:35:28,517 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:35:28,518 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 11:35:28,545 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken:dao:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/dao/pom.xml.
+2015-09-16 11:35:28,742 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.edu.ken.mavenweb:mavenweb:0.0.1-SNAPSHOT @ /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/pom.xml.
+2015-09-16 11:35:29,978 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:35:29,978 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/dao/src/main/resources
+2015-09-16 11:35:29,979 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-09-16 11:35:29,980 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/dao/src/test/resources
+2015-09-16 11:35:30,160 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 11:35:30,164 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-16 11:35:30,165 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-16 11:35:30,166 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
