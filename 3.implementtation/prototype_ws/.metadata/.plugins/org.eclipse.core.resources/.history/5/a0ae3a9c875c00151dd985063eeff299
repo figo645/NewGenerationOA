@@ -1,0 +1,35 @@
+package cn.edu.ken.controller;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import cn.edu.ken.model.Book;
+import cn.edu.ken.service.BookService;
+
+@Controller
+@RequestMapping("/book")
+public class BookController {
+	@Resource(name = "bookService")
+	private BookService bookService;
+	
+	@Resource(name = "sqlSessionFactory")
+	private SqlSessionFactory sqlSessionFactory;
+	
+	@RequestMapping("/update")
+	public String update(Book book, Model model,HttpServletRequest request) {
+		//System.out.println("service update");
+		model.addAttribute("greetings", "I came from Model not ModelAttribute"); 
+		//System.out.println(model.toString());
+		request.setAttribute("hello", "request hello");
+		Session session = sqlSessionFactory.openSession();
+		model.addAttribute("book",book);
+		return "users/success";
+	}
+
+}

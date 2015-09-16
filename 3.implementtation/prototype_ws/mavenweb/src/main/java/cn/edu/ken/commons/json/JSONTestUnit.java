@@ -10,7 +10,7 @@ import org.junit.Test;
 import net.sf.json.JSONObject;
 import net.sf.json.xml.XMLSerializer;
 import cn.edu.ken.model.Book;
-import cn.edu.ken.model.Contact;
+//import cn.edu.ken.model.Contact;
 import junit.framework.Assert;
 import junit.framework.TestCase;
 
@@ -39,16 +39,16 @@ public class JSONTestUnit extends TestCase {
 		}
 	}
 
-	@Test
-	public void testJSONJacksonTest003() throws JsonParseException, JsonMappingException, IOException {
-		String s = "{\"name\":123}";       
-        ObjectMapper mapper = new ObjectMapper();  
-        //unmarshalling (reading JSON)    
-        Contact a = mapper.readValue(s, Contact.class);          
-        //marshalling (reading JSON)  
-        //{"name":123}  
-        System.out.println("testJSONJacksonTest003:"+mapper.writeValueAsString(a));  
-	}
+//	@Test
+//	public void testJSONJacksonTest003() throws JsonParseException, JsonMappingException, IOException {
+//		String s = "{\"name\":123}";       
+//        ObjectMapper mapper = new ObjectMapper();  
+//        //unmarshalling (reading JSON)    
+//        Contact a = mapper.readValue(s, Contact.class);          
+//        //marshalling (reading JSON)  
+//        //{"name":123}  
+//        System.out.println("testJSONJacksonTest003:"+mapper.writeValueAsString(a));  
+//	}
 
 	protected void tearDown() throws Exception {
 		super.tearDown();

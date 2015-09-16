@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="jFs6pFx63Ye">
+  <start-date>2015-09-07T00:00:00.000Z</start-date>
+  <granularity>days</granularity>
+  <prototype-task>
+    <task id="t-2">
+      <title>&gt;任务 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>&gt;里程碑 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>群组 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>资源 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>设备 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>素材 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>群组 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <child-resource idref="r1"/>
+  </resource>
+  <resource id="r1">
+    <name>资源 1</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t12"/>
+    <child-task idref="t13"/>
+  </task>
+  <task id="t1">
+    <title>springmvc</title>
+    <leveled-start>2015-09-10T00:00:00.000Z</leveled-start>
+    <effort>115200</effort>
+    <effort-done>115200</effort-done>
+    <start-constraint-date>2015-09-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t2">
+    <title>json＋springmvc</title>
+    <leveled-start>2015-09-16T00:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <start-constraint-date>2015-09-11T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t1"/>
+    <start-no-earlier-than>2015-09-11T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t3">
+    <title>restful service</title>
+    <leveled-start>2015-09-17T00:00:00.000Z</leveled-start>
+    <effort>86400</effort>
+    <start-constraint-date>2015-09-14T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t2"/>
+    <start-no-earlier-than>2015-09-14T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t4">
+    <title>maven springmvc</title>
+    <leveled-start>2015-09-07T00:00:00.000Z</leveled-start>
+    <effort>86400</effort>
+    <effort-done>86400</effort-done>
+    <start-constraint-date>2015-09-04T08:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-04T08:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t5">
+    <title>sonatype nexus</title>
+    <leveled-start>2015-09-11T03:12:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2015-09-08T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-08T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t6">
+    <title>spring mvc, mybatis, json，restful，maven，nexus demo</title>
+    <leveled-start>2015-09-16T00:00:00.000Z</leveled-start>
+    <effort>115200</effort>
+    <effort-done>92160</effort-done>
+    <start-constraint-date>2015-09-15T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t1"/>
+    <start-no-earlier-than>2015-09-15T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t9">
+    <title>oa bootstrap</title>
+    <leveled-start>2015-09-22T00:00:00.000Z</leveled-start>
+    <effort>86400</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t3"/>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t10">
+    <title>Grails</title>
+    <effort>86400</effort>
+    <start-constraint-date>2015-09-24T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-24T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t12">
+    <title>tech gap</title>
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t2"/>
+    <child-task idref="t3"/>
+    <child-task idref="t4"/>
+    <child-task idref="t5"/>
+    <child-task idref="t6"/>
+    <child-task idref="t9"/>
+    <child-task idref="t10"/>
+  </task>
+  <task id="t13">
+    <title>demo version</title>
+    <type>group</type>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t18"/>
+    <child-task idref="t20"/>
+    <child-task idref="t21"/>
+    <child-task idref="t22"/>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t18">
+    <title>springmvc+mybatis demo CRUD</title>
+    <effort>28800</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t20">
+    <title>bootstrap UI HTML</title>
+    <effort>28800</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t21">
+    <title>数据库ER图</title>
+    <effort>28800</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t22">
+    <title>数据库字段设计</title>
+    <effort>28800</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>

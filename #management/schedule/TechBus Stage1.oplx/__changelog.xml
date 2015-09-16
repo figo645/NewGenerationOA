@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Ken" date="2015-09-11T16:44:01.529Z" timestamp="2015-09-11T16:44:01.529Z">
+    <change idref="t1" attribute="resourceLeveledDate" type="date" to="2015-09-10T00:00:00.000Z"/>
+    <change idref="t2" attribute="resourceLeveledDate" type="date" to="2015-09-16T00:00:00.000Z"/>
+    <change idref="t3" attribute="resourceLeveledDate" type="date" to="2015-09-17T00:00:00.000Z"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" to="2015-09-07T00:00:00.000Z"/>
+    <change idref="t5" attribute="resourceLeveledDate" type="date" to="2015-09-11T03:12:00.000Z"/>
+    <change idref="t6" attribute="resourceLeveledDate" type="date" to="2015-09-16T00:00:00.000Z"/>
+    <change idref="t9" attribute="resourceLeveledDate" type="date" to="2015-09-22T00:00:00.000Z"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" to="2015-09-17T00:00:00.000Z"/>
+  </task-change-set>
+  <task-change-set user="Ken" date="2015-09-16T16:38:28.951Z" timestamp="2015-09-16T16:38:28.951Z">
+    <change idref="t1" attribute="internalEffortDone" type="real" from="57600" to="115200" resolved="yes"/>
+    <change idref="t5" attribute="internalEffortDone" type="real" from="17279.998046875" to="28800" resolved="yes"/>
+    <change idref="t6" attribute="internalEffortDone" type="real" from="46079.99609375" to="92160" resolved="yes"/>
+    <change idref="t9" attribute="title" type="string" from="demo crazy bootstrap" to="oa bootstrap" resolved="yes"/>
+    <change idref="t10" attribute="title" type="string" from="ruby on rails" to="Grails" resolved="yes"/>
+    <change idref="t10" attribute="noEarlierThanConstraintDate" type="date" from="2015-09-17T00:00:00.000Z" to="2015-09-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="t10" attribute="resourceLeveledDate" type="date" from="2015-09-17T00:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ken" date="2015-09-16T16:43:02.318Z" timestamp="2015-09-16T16:43:02.318Z">
+    <change idref="t12" to="t-1" to-position="0" resolved="yes">
+      <change idref="t12" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t12" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t12" attribute="title" type="string" to="tech gap"/>
+    </change>
+    <change idref="t13" to="t-1" to-position="1" resolved="yes">
+      <change idref="t13" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" to="2015-09-17T00:00:00.000Z"/>
+      <change idref="t13" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t13" attribute="title" type="string" to="demo version"/>
+    </change>
+    <change idref="t1" from="t-1" from-position="0" to="t12" to-position="0" resolved="yes"/>
+    <change idref="t2" from="t-1" from-position="1" to="t12" to-position="1" resolved="yes"/>
+    <change idref="t3" from="t-1" from-position="2" to="t12" to-position="2" resolved="yes"/>
+    <change idref="t4" from="t-1" from-position="3" to="t12" to-position="3" resolved="yes"/>
+    <change idref="t5" from="t-1" from-position="4" to="t12" to-position="4" resolved="yes"/>
+    <change idref="t6" from="t-1" from-position="5" to="t12" to-position="5" resolved="yes"/>
+    <change idref="t9" from="t-1" from-position="6" to="t12" to-position="6" resolved="yes"/>
+    <change idref="t10" from="t-1" from-position="7" to="t12" to-position="7" resolved="yes"/>
+    <change idref="t18" to="t13" to-position="0" resolved="yes">
+      <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" to="2015-09-17T00:00:00.000Z"/>
+      <change idref="t18" attribute="title" type="string" to="springmvc+mybatis demo CRUD"/>
+    </change>
+    <change idref="t20" to="t13" to-position="1" resolved="yes">
+      <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" to="2015-09-17T00:00:00.000Z"/>
+      <change idref="t20" attribute="title" type="string" to="bootstrap UI HTML"/>
+    </change>
+    <change idref="t21" to="t13" to-position="2" resolved="yes">
+      <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" to="2015-09-17T00:00:00.000Z"/>
+      <change idref="t21" attribute="title" type="string" to="数据库ER图"/>
+    </change>
+    <change idref="t22" to="t13" to-position="3" resolved="yes">
+      <change idref="t22" attribute="noEarlierThanConstraintDate" type="date" to="2015-09-17T00:00:00.000Z"/>
+      <change idref="t22" attribute="title" type="string" to="数据库字段设计"/>
+    </change>
+  </task-change-set>
+  <metadata-change-set user="Ken" date="2015-09-16T16:43:02.317Z" timestamp="2015-09-16T16:43:02.317Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{
+    info =     (
+    );
+}" to="{
+    info =     (
+                {
+            name = &quot;\U57fa\U7ebf 15/9/17&quot;;
+            uuid = bcey1Bo0kwJ;
+        }
+    );
+}" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Ken" date="2015-09-16T16:43:21.597Z" timestamp="2015-09-16T16:43:21.597Z">
+    <change idref="m1" attribute="projectTitle" type="string" from="Becoming Team Leader" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
