@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="8" y="95" w="951" h="630">
+  <window x="15" y="78" w="951" h="685">
     <editing-scenario>jFs6pFx63Ye</editing-scenario>
     <comparison-scenario>hiaFZtYQcoa</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <draw-folded/>
-    <status-display>extended</status-display>
+    <status-display>extended-alternate</status-display>
     <task-view>
       <split-view-divider-position>382</split-view-divider-position>
-      <outline x="0" y="0" w="382" h="496">
+      <outline x="0" y="0" w="382" h="551">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="267"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t12 t13"/>
-        <selected-items-at-filter-time idrefs="t18 t13 t4 t22 t11 t9 t5 t19 t20 t14 t16 t6 t17 t12 t2 t15 t10 t3 t21"/>
+        <expanded-items idrefs="t63 t64"/>
+        <selected-items-at-filter-time idrefs="t72 t66 t69 t64 t70 t73 t62 t67 t71 t65 t68 t63"/>
       </outline>
-      <gantt-view x="-29" y="0" w="553" h="496">
+      <gantt-view x="1439" y="0" w="553" h="551">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -64,13 +64,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="291" h="496">
+      <outline x="0" y="0" w="291" h="551">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
+        <selected-items-at-filter-time idrefs="r2"/>
       </outline>
-      <timeline x="-136" y="0" w="601" h="496">
+      <timeline x="1600" y="0" w="601" h="551">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -114,7 +115,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="275" h="462">
+      <outline x="0" y="0" w="275" h="517">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="139"/>
@@ -124,8 +125,8 @@
     </calendar>
   </window>
   <project>
-    <next-task-id>23</next-task-id>
-    <next-resource-id>2</next-resource-id>
+    <next-task-id>74</next-task-id>
+    <next-resource-id>3</next-resource-id>
     <scenario id="jFs6pFx63Ye" name="Actual" filename="Actual.xml"/>
     <scenario id="hiaFZtYQcoa" name="基线 15/9/17" filename="bcey1Bo0kwJ.xml"/>
     <date-display dates="true" times="false" seconds="false"/>
@@ -185,6 +186,9 @@
     <leveling>
       <constrains-completion-date/>
     </leveling>
+    <rescheduling>
+      <updates-selected-tasks/>
+    </rescheduling>
     <page-adornment>
       <master-page-headers>
         <header location="left">

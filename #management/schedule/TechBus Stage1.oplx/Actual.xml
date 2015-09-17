@@ -50,9 +50,14 @@
   <resource id="r-1">
     <type>Group</type>
     <child-resource idref="r1"/>
+    <child-resource idref="r2"/>
   </resource>
   <resource id="r1">
-    <name>资源 1</name>
+    <name>Xu Chen Fei</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r2">
+    <name>Dai Wen Bo</name>
     <type>Staff</type>
   </resource>
   <top-task idref="t-1"/>
@@ -60,68 +65,78 @@
     <type>group</type>
     <child-task idref="t12"/>
     <child-task idref="t13"/>
+    <child-task idref="t24"/>
+    <child-task idref="t25"/>
+    <child-task idref="t26"/>
+    <child-task idref="t27"/>
+    <child-task idref="t28"/>
+    <child-task idref="t34"/>
+    <child-task idref="t62"/>
+    <child-task idref="t63"/>
+    <child-task idref="t64"/>
   </task>
   <task id="t1">
     <title>springmvc</title>
-    <leveled-start>2015-09-10T00:00:00.000Z</leveled-start>
     <effort>115200</effort>
     <effort-done>115200</effort-done>
-    <start-constraint-date>2015-09-07T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2015-09-07T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2015-09-10T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-09-10T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t2">
     <title>json＋springmvc</title>
-    <leveled-start>2015-09-16T00:00:00.000Z</leveled-start>
     <effort>28800</effort>
-    <start-constraint-date>2015-09-11T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t1"/>
-    <start-no-earlier-than>2015-09-11T00:00:00.000Z</start-no-earlier-than>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t3">
     <title>restful service</title>
-    <leveled-start>2015-09-17T00:00:00.000Z</leveled-start>
     <effort>86400</effort>
-    <start-constraint-date>2015-09-14T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2015-09-18T00:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t2"/>
-    <start-no-earlier-than>2015-09-14T00:00:00.000Z</start-no-earlier-than>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-09-18T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t4">
     <title>maven springmvc</title>
-    <leveled-start>2015-09-07T00:00:00.000Z</leveled-start>
     <effort>86400</effort>
     <effort-done>86400</effort-done>
-    <start-constraint-date>2015-09-04T08:30:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2015-09-04T08:30:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2015-09-07T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-09-07T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t5">
     <title>sonatype nexus</title>
-    <leveled-start>2015-09-11T03:12:00.000Z</leveled-start>
     <effort>28800</effort>
     <effort-done>28800</effort-done>
-    <start-constraint-date>2015-09-08T00:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2015-09-08T00:00:00.000Z</start-no-earlier-than>
+    <start-constraint-date>2015-09-14T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-09-14T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t6">
     <title>spring mvc, mybatis, json，restful，maven，nexus demo</title>
-    <leveled-start>2015-09-16T00:00:00.000Z</leveled-start>
     <effort>115200</effort>
     <effort-done>92160</effort-done>
-    <start-constraint-date>2015-09-15T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t1"/>
-    <start-no-earlier-than>2015-09-15T00:00:00.000Z</start-no-earlier-than>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t9">
     <title>oa bootstrap</title>
-    <leveled-start>2015-09-22T00:00:00.000Z</leveled-start>
     <effort>86400</effort>
-    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2015-09-23T00:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t3"/>
-    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-09-23T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t10">
     <title>Grails</title>
     <effort>86400</effort>
     <start-constraint-date>2015-09-24T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2015-09-24T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t12">
@@ -137,38 +152,382 @@
     <child-task idref="t10"/>
   </task>
   <task id="t13">
-    <title>demo version</title>
+    <title>demo version用户管理</title>
     <type>group</type>
     <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
     <child-task idref="t18"/>
     <child-task idref="t20"/>
     <child-task idref="t21"/>
     <child-task idref="t22"/>
+    <child-task idref="t23"/>
+    <child-task idref="t58"/>
     <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t18">
     <title>springmvc+mybatis demo CRUD</title>
     <effort>28800</effort>
+    <effort-done>21600</effort-done>
     <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t20">
     <title>bootstrap UI HTML</title>
-    <effort>28800</effort>
+    <effort>86400</effort>
     <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t21">
     <title>数据库ER图</title>
-    <effort>28800</effort>
+    <effort>57600</effort>
+    <effort-done>28800</effort-done>
     <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
     <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t22">
     <title>数据库字段设计</title>
+    <effort>86400</effort>
+    <effort-done>34560</effort-done>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t23">
+    <title>aop rule设计实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-09-23T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-09-23T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t24">
+    <title>任务Task管理</title>
+    <type>group</type>
+    <start-constraint-date>2015-09-29T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t41"/>
+    <child-task idref="t42"/>
+    <child-task idref="t44"/>
+    <child-task idref="t43"/>
+    <start-no-earlier-than>2015-09-29T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t25">
+    <title>notes管理</title>
+    <type>group</type>
+    <start-constraint-date>2015-10-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t45"/>
+    <child-task idref="t46"/>
+    <child-task idref="t48"/>
+    <child-task idref="t47"/>
+    <start-no-earlier-than>2015-10-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t26">
+    <title>holiday管理</title>
+    <type>group</type>
+    <start-constraint-date>2015-10-05T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t49"/>
+    <child-task idref="t50"/>
+    <child-task idref="t52"/>
+    <child-task idref="t51"/>
+    <child-task idref="t59"/>
+    <start-no-earlier-than>2015-10-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t27">
+    <title>文档管理</title>
+    <type>group</type>
+    <start-constraint-date>2015-10-07T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t53"/>
+    <child-task idref="t54"/>
+    <child-task idref="t56"/>
+    <child-task idref="t55"/>
+    <start-no-earlier-than>2015-10-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t28">
+    <title>统一类型管理界面</title>
+    <type>group</type>
+    <start-constraint-date>2015-10-12T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t29"/>
+    <child-task idref="t30"/>
+    <child-task idref="t31"/>
+    <child-task idref="t32"/>
+    <child-task idref="t33"/>
+    <child-task idref="t60"/>
+    <start-no-earlier-than>2015-10-12T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t29">
+    <title>文档类型</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-10-12T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2015-10-12T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t30">
+    <title>任务类型</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-10-12T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2015-10-12T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t31">
+    <title>notes类型</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-10-13T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2015-10-13T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t32">
+    <title>活动类型</title>
     <effort>28800</effort>
+    <start-constraint-date>2015-10-14T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2015-10-14T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t33">
+    <title>用户类型</title>
+    <effort>28800</effort>
+    <start-constraint-date>2015-10-14T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2015-10-14T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t34">
+    <title>任务活动管理</title>
+    <type>group</type>
+    <start-constraint-date>2015-10-16T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t35"/>
+    <child-task idref="t36"/>
+    <child-task idref="t37"/>
+    <child-task idref="t38"/>
+    <child-task idref="t61"/>
+    <start-no-earlier-than>2015-10-16T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t35">
+    <title>活动模版管理</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-10-16T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2015-10-16T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t36">
+    <title>活动触发</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-10-16T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-10-16T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t37">
+    <title>活动关闭</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-10-19T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-10-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t38">
+    <title>活动依赖</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-10-19T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2015-10-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t41">
+    <title>Task数据库设计review</title>
+    <effort>14400</effort>
     <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t42">
+    <title>Task画面设计review</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t43">
+    <title>TaskCRUD实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t44">
+    <title>TaskHTML实现</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t45">
+    <title>notes数据库设计review</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t46">
+    <title>notes画面设计review</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t47">
+    <title>notesCRUD实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t48">
+    <title>notesHTML实现</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t49">
+    <title>holiday数据库设计review</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-10-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-10-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t50">
+    <title>holiday画面设计review</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-10-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-10-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t51">
+    <title>holiday CRUD实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-10-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-10-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t52">
+    <title>holiday HTML实现</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-10-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-10-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t53">
+    <title>文档数据库设计review</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t54">
+    <title>文档画面设计review</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t55">
+    <title>文档CRUD实现</title>
+    <effort>72000</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t56">
+    <title>文档HTML实现</title>
+    <effort>14400</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t58">
+    <title>&gt;里程碑 1</title>
+    <type>milestone</type>
+    <start-constraint-date>2015-09-25T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t59">
+    <title>&gt;里程碑 2</title>
+    <type>milestone</type>
+    <start-constraint-date>2015-10-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-10-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t60">
+    <title>&gt;里程碑 3</title>
+    <type>milestone</type>
+    <start-constraint-date>2015-10-15T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-10-15T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t61">
+    <title>&gt;里程碑 4 第一版</title>
+    <type>milestone</type>
+    <start-constraint-date>2015-10-21T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-10-21T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t62">
+    <title>工作日历功能</title>
+    <type>group</type>
+    <start-constraint-date>2015-10-26T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-10-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t63">
+    <title>系统管理</title>
+    <type>group</type>
+    <start-constraint-date>2015-10-26T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-10-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t64">
+    <title>管理计划</title>
+    <type>group</type>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t72"/>
+    <child-task idref="t65"/>
+    <child-task idref="t66"/>
+    <child-task idref="t67"/>
+    <child-task idref="t68"/>
+    <child-task idref="t69"/>
+    <child-task idref="t70"/>
+    <child-task idref="t71"/>
+    <child-task idref="t73"/>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t65">
+    <title>同类软件功能调查</title>
+    <effort>28800</effort>
+    <start-constraint-date>2015-09-21T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-21T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t66">
+    <title>同类软件功能报价</title>
+    <effort>28800</effort>
+    <start-constraint-date>2015-09-21T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-21T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t67">
+    <title>工作职责划分</title>
+    <effort>28800</effort>
+    <start-constraint-date>2015-09-21T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-21T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t68">
+    <title>利润分配讨论并划分</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-09-22T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-22T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t69">
+    <title>产品盈利模式</title>
+    <effort>86400</effort>
+    <start-constraint-date>2015-09-23T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-23T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t70">
+    <title>风险管理</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-09-29T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-29T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t71">
+    <title>沟通管理方式</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-10-01T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-10-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t72">
+    <title>企业文化及宗旨</title>
+    <effort>86400</effort>
+    <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t73">
+    <title>冲突管理方式</title>
+    <effort>57600</effort>
+    <start-constraint-date>2015-10-05T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2015-10-05T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
