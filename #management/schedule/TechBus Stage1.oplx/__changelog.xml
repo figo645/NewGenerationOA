@@ -571,6 +571,12 @@
     <change idref="t80" attribute="noEarlierThanConstraintDate" type="date" from="2015-10-15T00:00:00.000Z" to="2015-10-30T00:00:00.000Z" resolved="yes"/>
     <change idref="t81" attribute="noEarlierThanConstraintDate" type="date" from="2015-10-14T00:00:00.000Z" to="2015-10-30T00:00:00.000Z" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Ken" date="2015-09-17T16:15:57.119Z" timestamp="2015-09-17T16:15:57.119Z">
+    <change idref="t2" attribute="internalPrerequisitesString" type="string" from="1FS" resolved="yes"/>
+    <change idref="t3" attribute="internalPrerequisitesString" type="string" from="2FS" resolved="yes"/>
+    <change idref="t6" attribute="internalPrerequisitesString" type="string" from="1FS" resolved="yes"/>
+    <change idref="t9" attribute="internalPrerequisitesString" type="string" from="3FS" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Ken" date="2015-09-17T03:11:57.202Z" timestamp="2015-09-17T03:11:57.202Z">
     <change idref="r2" to="r-1" to-position="1" resolved="yes">
       <change idref="r2" attribute="name" type="string" to="Dai Wen Bo"/>

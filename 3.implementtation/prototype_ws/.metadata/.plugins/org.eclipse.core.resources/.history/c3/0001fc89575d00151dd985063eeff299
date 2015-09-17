@@ -16,13 +16,13 @@
 	default-autowire="byName">
 
 	<context:component-scan base-package="cn.edu.ken.mybatis" />
-	<context:property-placeholder location="classpath:jdbc.properties" />
+	<context:property-placeholder location="WEB-INF/jdbc.properties" />
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
-		<property name="driverClassName" value="${jdbc.driver}" />
-		<property name="url" value="${jdbc.url}" />
-		<property name="username" value="${jdbc.username}" />
-		<property name="password" value="${jdbc.password}" />
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://127.0.0.1:3307/test" />
+		<property name="username" value="root" />
+		<property name="password" value="" />
 	</bean>
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean"
 		scope="singleton">

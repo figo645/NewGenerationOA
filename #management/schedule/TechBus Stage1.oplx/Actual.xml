@@ -87,7 +87,6 @@
     <title>json＋springmvc</title>
     <effort>28800</effort>
     <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t1"/>
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
   </task>
@@ -95,7 +94,6 @@
     <title>restful service</title>
     <effort>86400</effort>
     <start-constraint-date>2015-09-18T00:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t2"/>
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-09-18T00:00:00.000Z</start-no-earlier-than>
   </task>
@@ -120,7 +118,6 @@
     <effort>115200</effort>
     <effort-done>92160</effort-done>
     <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t1"/>
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
   </task>
@@ -128,7 +125,6 @@
     <title>oa bootstrap</title>
     <effort>86400</effort>
     <start-constraint-date>2015-09-23T00:00:00.000Z</start-constraint-date>
-    <prerequisite-task idref="t3"/>
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-09-23T00:00:00.000Z</start-no-earlier-than>
   </task>
