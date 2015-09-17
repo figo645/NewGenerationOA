@@ -14,10 +14,10 @@
         <column name="Notes" width="20"/>
         <column name="Title" width="267"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t63 t64"/>
+        <expanded-items idrefs="t62 t26 t64 t28 t34 t63 t27"/>
         <selected-items-at-filter-time idrefs="t72 t66 t69 t64 t70 t73 t62 t67 t71 t65 t68 t63"/>
       </outline>
-      <gantt-view x="1439" y="0" w="553" h="551">
+      <gantt-view x="-54" y="0" w="553" h="551">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -125,7 +125,7 @@
     </calendar>
   </window>
   <project>
-    <next-task-id>74</next-task-id>
+    <next-task-id>82</next-task-id>
     <next-resource-id>3</next-resource-id>
     <scenario id="jFs6pFx63Ye" name="Actual" filename="Actual.xml"/>
     <scenario id="hiaFZtYQcoa" name="基线 15/9/17" filename="bcey1Bo0kwJ.xml"/>
