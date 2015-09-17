@@ -4,3 +4,8 @@
 1442377647382	Delete element
 1442384153741	Delete element
 1442384340003	Copy file
+1442424166015	Rename resource 'mybatis-jdbc.properties'
+1442424411179	Move 1 resources to 'resources'
+1442425011426	Copy file
+1442425078311	Delete element
+1442425618215	Move 1 resources to 'WEB-INF'

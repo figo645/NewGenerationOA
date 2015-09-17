@@ -45,7 +45,6 @@ INDEX VERSION 1.126+/Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_w
 1271342938.index
 272178059.index
 1014085466.index
-3834064628.index
 3712507179.index
 1622596725.index
 191695874.index
