@@ -4,15 +4,14 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import cn.edu.ken.model.Book;
-import cn.edu.ken.mybatis.mapper.contactMapper;
-import cn.edu.ken.mybatis.model.contactExample;
+import cn.edu.ken.mybatis.mapper.ContactMapper;
+import cn.edu.ken.mybatis.model.ContactExample;
 import cn.edu.ken.service.BookService;
 
 @Controller
@@ -32,11 +31,11 @@ public class BookController {
 		request.setAttribute("hello", "request hello");
 		//SqlSession session = sqlSessionFactory.openSession();
 		
-		contactExample example = new contactExample();
-		contactExample.Criteria cri = example.createCriteria();
+		ContactExample example = new ContactExample();
+		ContactExample.Criteria cri = example.createCriteria();
 		cri.andIdEqualTo(1);
 		cri.andContactnameLike("na%");
-		contactMapper vcontactMapper = sqlSession.getMapper(contactMapper.class);
+		ContactMapper vcontactMapper = sqlSession.getMapper(ContactMapper.class);
 		int c = vcontactMapper.countByExample(example);
 		System.out.println(c);
 		model.addAttribute("book",book);

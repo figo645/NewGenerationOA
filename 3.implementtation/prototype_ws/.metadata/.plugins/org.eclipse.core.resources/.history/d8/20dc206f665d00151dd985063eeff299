@@ -1,0 +1,30 @@
+package cn.edu.ken.service;
+
+import javax.annotation.Resource;
+
+import org.springframework.stereotype.Component;
+
+import cn.edu.ken.dao.BookDao;
+import cn.edu.ken.model.Book;
+
+@Component
+public class ContactService {
+	private ContactDao contactDao;
+
+	public ContactDao getContactDao() {
+		return contactDao;
+	}
+	@Resource
+	public void setContactDao(ContactDao contactDao) {
+		this.contactDao = contactDao;
+	}
+
+	public void add(Contact contact) {
+		contactDao.add(contact);
+	}
+
+	public void update(Contact contact) {
+		contactDao.update(contact);
+	}
+
+}

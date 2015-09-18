@@ -1285,3 +1285,456 @@ Binding(CTRL+SHIFT+ARROW_RIGHT,
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 00:20:57.439
 !MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 00:27:46.372
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 00:27:46.374
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 00:28:10.508
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 00:28:10.519
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 00:50:21.289
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 00:50:21.291
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 00:50:28.071
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 00:50:28.072
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 00:51:21.758
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 00:51:21.761
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:26:40.832
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:26:40.835
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:26:48.590
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:26:48.599
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:27:09.867
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:27:09.869
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:28:35.860
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:28:35.862
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:29:11.826
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:29:11.829
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:29:45.597
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:29:45.602
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:30:40.743
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:30:40.745
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:45:42.436
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:45:42.439
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:45:50.632
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:45:50.642
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:01.553
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:01.565
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:30.031
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:30.040
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:33.379
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:33.389
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:37.916
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:37.926
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:45.527
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:45.537
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:54.484
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:46:54.495
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:47:05.766
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:47:05.776
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:47:36.706
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:47:36.708
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:47:48.042
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:47:48.051
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:48:15.911
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:48:15.914
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:48:35.761
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:48:35.763
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:49:36.686
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:49:36.688
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:50:01.428
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:50:01.430
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-09-18 01:50:17.333
+!MESSAGE Launch configuration ContactDao references closed project dao
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-09-18 01:50:17.333
+!MESSAGE Launch configuration ContactDao references closed project dao
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-09-18 01:50:17.336
+!MESSAGE Launch configuration ContactDao references closed project dao
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:50:37.941
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:50:37.952
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:51:00.450
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:51:00.452
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:51:03.848
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:51:03.850
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:51:30.884
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:51:30.886
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:51:42.217
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:51:42.220
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:51:52.447
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:51:52.449
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:52:20.663
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:52:20.665
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:52:58.304
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:52:58.306
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:12.802
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:12.804
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:22.091
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:22.093
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:33.917
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:33.918
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:37.484
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:37.486
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:43.138
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:43.140
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:52.133
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:53:52.135
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:54:28.077
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:54:28.079
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:54:36.074
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:54:36.076
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:55:19.191
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:55:19.195
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:55:39.500
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:55:39.503
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:56:10.612
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:56:10.613
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:56:31.751
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:56:31.752
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:56:33.792
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:56:33.794
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:56:39.267
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:56:39.269
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:56:55.410
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:56:55.413
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:57:28.569
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:57:28.571
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:57:45.407
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:57:45.414
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:59:09.876
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:59:09.877
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:59:19.249
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:59:19.252
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:59:39.633
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 01:59:39.634
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:00:02.560
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:00:02.562
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:00:50.302
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:00:50.304
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:01:51.680
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:01:51.682
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:02:21.346
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:02:21.347
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:03:43.860
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:03:43.862
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:03:50.030
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:03:50.031
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:05:25.199
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:05:25.201
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:05:32.117
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:05:32.119
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:05:45.095
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:05:45.096
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:05:58.081
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:05:58.083
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:06:35.403
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:06:35.406
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:07:10.201
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:07:10.202
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:07:22.703
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:07:22.705
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:07:29.841
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:07:29.848
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:07:47.962
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:07:47.965
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:08:09.013
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:08:09.023
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:08:23.684
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:08:23.685
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:08:26.407
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:08:26.408
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:09:35.194
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-09-18 02:09:35.204
+!MESSAGE Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!

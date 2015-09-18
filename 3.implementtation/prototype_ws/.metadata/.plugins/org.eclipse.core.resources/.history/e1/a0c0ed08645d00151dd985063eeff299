@@ -1,0 +1,11 @@
+<html>
+<body>
+	<h2>user login</h2>
+	<form method="post"
+		action="<%=request.getContextPath()%>/users/login">
+		bookname:<input type="text" name="username" id="username"> author:<input
+			type="text" name="author" id="author"> <input type="submit"
+			value="submit">
+	</form>
+</body>
+</html>
