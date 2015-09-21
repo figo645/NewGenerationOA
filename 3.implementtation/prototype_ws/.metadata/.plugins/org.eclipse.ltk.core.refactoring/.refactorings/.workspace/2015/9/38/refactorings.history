@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;mavenweb&apos;" deleteContents="true" description="Delete resource &apos;mavenweb&apos;" element1="/mavenweb" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1442303007070"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;mavenweb&apos;" deleteContents="true" description="Delete resource &apos;mavenweb&apos;" element1="/mavenweb" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1442303007070"/>&#x0A;<refactoring comment="Delete resource &apos;OA_HTML&apos;" deleteContents="true" description="Delete resource &apos;OA_HTML&apos;" element1="/OA_HTML" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1442649229881"/>
 </session>

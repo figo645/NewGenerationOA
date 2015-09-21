@@ -33,8 +33,7 @@ public class BookController {
 		
 		ContactExample example = new ContactExample();
 		ContactExample.Criteria cri = example.createCriteria();
-		cri.andIdEqualTo(1);
-		cri.andContactnameLike("na%");
+		cri.andUsernameLike("na%");
 		ContactMapper vcontactMapper = sqlSession.getMapper(ContactMapper.class);
 		int c = vcontactMapper.countByExample(example);
 		System.out.println(c);

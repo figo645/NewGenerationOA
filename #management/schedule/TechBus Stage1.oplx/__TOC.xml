@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="15" y="78" w="951" h="685">
+  <window x="13" y="66" w="951" h="685">
     <editing-scenario>jFs6pFx63Ye</editing-scenario>
     <comparison-scenario>hiaFZtYQcoa</comparison-scenario>
     <view>task</view>
@@ -9,14 +9,14 @@
     <status-display>extended-alternate</status-display>
     <task-view>
       <split-view-divider-position>382</split-view-divider-position>
-      <outline x="0" y="0" w="382" h="551">
+      <outline x="0" y="1" w="382" h="551">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="267"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t62 t26 t12 t64 t28 t34 t63 t27"/>
+        <expanded-items idrefs="t12 t62 t13 t63 t64"/>
       </outline>
-      <gantt-view x="918" y="0" w="553" h="551">
+      <gantt-view x="723.5" y="1" w="553" h="551">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -70,7 +70,7 @@
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r2"/>
       </outline>
-      <timeline x="1600" y="0" w="601" h="551">
+      <timeline x="-13" y="0" w="601" h="551">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
