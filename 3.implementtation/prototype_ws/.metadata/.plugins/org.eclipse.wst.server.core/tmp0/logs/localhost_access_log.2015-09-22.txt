@@ -115,3 +115,14 @@
 0:0:0:0:0:0:0:1%0 - - [22/Sep/2015:17:46:50 +0800] "POST /mavenweb/contact/search HTTP/1.1" 200 358
 0:0:0:0:0:0:0:1%0 - - [22/Sep/2015:17:47:21 +0800] "POST /mavenweb/contact/search HTTP/1.1" 500 4868
 0:0:0:0:0:0:0:1%0 - - [22/Sep/2015:17:47:27 +0800] "POST /mavenweb/contact/search HTTP/1.1" 500 4849
+127.0.0.1 - - [22/Sep/2015:20:22:09 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1%0 - - [22/Sep/2015:20:22:16 +0800] "POST /mavenweb/contact/search HTTP/1.1" 500 4526
+0:0:0:0:0:0:0:1%0 - - [22/Sep/2015:20:23:05 +0800] "POST /mavenweb/contact/search HTTP/1.1" 500 4526
+127.0.0.1 - - [22/Sep/2015:20:23:22 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1%0 - - [22/Sep/2015:20:23:24 +0800] "POST /mavenweb/contact/search HTTP/1.1" 500 4526
+127.0.0.1 - - [22/Sep/2015:20:26:50 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1%0 - - [22/Sep/2015:20:27:06 +0800] "GET /mavenweb/users/login.jsp HTTP/1.1" 200 341
+0:0:0:0:0:0:0:1%0 - - [22/Sep/2015:20:27:09 +0800] "GET /mavenweb/users/register.jsp HTTP/1.1" 200 284
+0:0:0:0:0:0:0:1%0 - - [22/Sep/2015:20:27:14 +0800] "POST /mavenweb/contact/addsearch HTTP/1.1" 500 4461
+0:0:0:0:0:0:0:1%0 - - [22/Sep/2015:20:27:53 +0800] "GET /mavenweb/users/search.jsp HTTP/1.1" 200 358
+0:0:0:0:0:0:0:1%0 - - [22/Sep/2015:20:27:56 +0800] "POST /mavenweb/contact/search HTTP/1.1" 500 4526

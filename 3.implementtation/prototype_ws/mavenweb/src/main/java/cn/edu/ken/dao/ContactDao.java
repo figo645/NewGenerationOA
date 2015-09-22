@@ -58,12 +58,7 @@ public class ContactDao {
 		ContactExample.Criteria cri = example.createCriteria();
 		System.out.println(contact.getUsername() + ":" + contact.getPassword());
 
-		if (null != contact.getUsername() || !"".equals(contact.getUsername())) {
-			cri.andUsernameLike(contact.getUsername() + "%");
-		}
-		if (null != contact.getPassword() || !"".equals(contact.getPassword())) {
-			cri.andPasswordEqualTo(contact.getPassword());
-		}
+		
 		ContactMapper vcontactMapper = sqlSession
 				.getMapper(ContactMapper.class);
 		List<Contact> returnList = vcontactMapper.selectByExample(example);
