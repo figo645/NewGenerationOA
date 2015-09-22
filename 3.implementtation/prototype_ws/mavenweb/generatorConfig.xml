@@ -15,7 +15,7 @@
 
 		<!-- JDBC 连接信息 -->
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
-			connectionURL="jdbc:mysql://localhost:3307/test" userId="root"
+			connectionURL="jdbc:mysql://localhost:3307/ngoa" userId="root"
 			password="">
 		</jdbcConnection>
 
@@ -41,6 +41,9 @@
 		</javaClientGenerator>
 
 		<table tableName="contact" domainObjectName="Contact"></table>
+		<table tableName="contactinfo" domainObjectName="ContactInfo"></table>
+		<table tableName="contacttype" domainObjectName="ContactType"></table>
+		<table tableName="department" domainObjectName="Department"></table>
 		<!--useActualColumnNames属性使得生成的model中的属性与数据库表中的属性大小写一致 <table tableName="USER_INFO" 
 			domainObjectName="UserInfo"> <property name="useActualColumnNames" value="true" 
 			/> </table> -->

@@ -16,5 +16,10 @@ public class ContactService {
 		int returnValue = contactDao.login(contact);
 		return returnValue;
 	}
+	
+	
+	public void addService(Contact contact){
+		contactDao.add(contact);
+	}
 
 }

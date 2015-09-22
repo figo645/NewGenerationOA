@@ -2274,3 +2274,73 @@ org.eclipse.core.runtime.CoreException: Launch configuration ContactDao referenc
 2015-09-20 00:08:05,493 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2015-09-20 00:08:05,495 [Worker-112] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
 2015-09-20 00:08:05,495 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:21:54,323 [Worker-310] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:21:54,329 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-22 11:21:54,330 [Worker-310] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:21:54,331 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:22:57,814 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:22:57,823 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-22 11:22:57,825 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:22:57,825 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:23:16,414 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:23:16,415 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-22 11:23:16,416 [Worker-312] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:23:16,416 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:23:22,158 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:23:22,159 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-22 11:23:22,160 [Worker-313] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:23:22,161 [Worker-313] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:23:37,086 [Worker-314] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb
+2015-09-22 11:23:37,086 [Worker-314] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B mybatis-generator:generate
+2015-09-22 11:25:45,053 [Worker-316] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb
+2015-09-22 11:25:45,053 [Worker-316] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B mybatis-generator:generate
+2015-09-22 11:26:20,210 [Worker-312] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb
+2015-09-22 11:26:20,210 [Worker-312] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B mybatis-generator:generate
+2015-09-22 11:27:22,718 [Worker-316] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb
+2015-09-22 11:27:22,718 [Worker-316] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B mybatis-generator:generate
+2015-09-22 11:27:40,672 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:27:40,681 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-22 11:27:40,683 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:27:40,684 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:27:44,342 [Worker-319] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb
+2015-09-22 11:27:44,342 [Worker-319] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B mybatis-generator:generate
+2015-09-22 11:27:51,817 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:27:51,818 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-22 11:27:51,819 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:27:51,820 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:28:43,545 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:28:43,546 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-22 11:28:43,547 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:28:43,552 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:28:45,574 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:28:45,581 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-22 11:28:45,582 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:28:45,583 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:28:48,841 [Worker-316] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb
+2015-09-22 11:28:48,841 [Worker-316] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B mybatis-generator:generate
+2015-09-22 11:29:41,911 [Worker-316] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:29:41,919 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-09-22 11:29:41,921 [Worker-316] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:29:41,921 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:29:45,489 [Worker-316] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb
+2015-09-22 11:29:45,489 [Worker-316] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B mybatis-generator:generate
+2015-09-22 11:29:53,438 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:29:53,439 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-22 11:29:53,441 [Worker-314] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:29:53,441 [Worker-314] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:31:27,194 [Worker-316] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:31:27,194 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-22 11:31:27,195 [Worker-316] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:31:27,196 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:42:06,471 [Worker-320] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:42:06,472 [Worker-320] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-22 11:42:06,473 [Worker-320] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:42:06,474 [Worker-320] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:42:26,777 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:42:26,778 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-22 11:42:26,779 [Worker-321] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:42:26,779 [Worker-321] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources
+2015-09-22 11:42:30,426 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:42:30,427 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-22 11:42:30,429 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (EUC_CN actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-22 11:42:30,429 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ken/Downloads/dev/ws/OA/3.implementtation/prototype_ws/mavenweb/src/test/resources

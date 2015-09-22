@@ -36,11 +36,12 @@ public class ContactDao {
 	}
 
 	// 模拟数据库操作
-	public void add(Book book) {
+	public void add(Contact contact) {
 		System.out.print("Add");
+		
 	}
 
-	public void update(Book book) {
+	public void update(Contact contact) {
 		System.out.print("Update");
 	}
 }
