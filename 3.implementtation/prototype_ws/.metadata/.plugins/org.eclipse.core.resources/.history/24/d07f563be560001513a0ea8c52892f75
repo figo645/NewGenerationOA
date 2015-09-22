@@ -1,0 +1,12 @@
+<html>
+<body>
+	<h2>Add Book</h2>
+	<form method="post"
+		action="<%=request.getContextPath()%>/contact/login">
+		username:<input type="text" name="username" id="username"> password:<input
+			type="text" name="password" id="password"> <input type="submit"
+			value="submit">
+	</form>
+	</form>
+</body>
+</html>

@@ -1,5 +1,7 @@
 package cn.edu.ken.controller;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
@@ -25,6 +27,28 @@ public class ContactController {
 		} else {
 			return "users/failed";
 		}
+	}
+
+	@RequestMapping("/add")
+	public String add(Contact contact) {
+		contactService.addContact(contact);
+		return "users/search";
+	}
+	
+	@RequestMapping("/addsearch")
+	public String addSearch(Contact contact,Model model){
+		contactService.addContact(contact);
+		List<Contact> contacts = contactService.searchByContact(contact);
+		model.addAttribute("contacts", contacts);
+		return "users/search";
+	}
+	
+	@RequestMapping("/search")
+	public String searchByCondition(Contact contact,Model model){
+		List<Contact> contacts = contactService.searchByCondition(contact);
+		model.addAttribute("contacts", contacts);
+		contact = null;
+		return "users/search";
 	}
 
 }

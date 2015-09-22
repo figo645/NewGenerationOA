@@ -7,5 +7,7 @@
 			type="text" name="password" id="password"> <input type="submit"
 			value="submit">
 	</form>
+	
+	<p><a href="<%=request.getContextPath()%>/users/register.jsp">register</a></p>
 </body>
 </html>

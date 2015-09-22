@@ -1,5 +1,7 @@
 package cn.edu.ken.service;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Component;
@@ -17,9 +19,23 @@ public class ContactService {
 		return returnValue;
 	}
 	
+	public void addContact(Contact contact){
+		//contact.setIdcontact(1);
+		contact.setContacttypeIdcontacttype(1);
+		contact.setDepartmentIddepartment(1);
+		contactDao.addContact(contact);
+	}
 	
-	public void addService(Contact contact){
-		contactDao.add(contact);
+	public void updateContact(Contact contact){
+		contactDao.updateContact(contact);
+	}
+	
+	public List<Contact> searchByContact(Contact contact){
+		return contactDao.searchList(contact);
+	}
+	
+	public List<Contact> searchByCondition(Contact contact){
+		return contactDao.searchByExample(contact);
 	}
 
 }
