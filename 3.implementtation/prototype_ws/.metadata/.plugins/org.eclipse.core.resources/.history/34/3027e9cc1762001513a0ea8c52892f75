@@ -58,9 +58,12 @@ public class ContactDao extends BaseDao {
 		ContactExample example = new ContactExample();
 		ContactExample.Criteria cri = example.createCriteria();
 		// //////////////////////////////////////////////////////////
-		if (this.objectAttrNullCheck(contact, "username"))
+		System.out.println(contact.getUsername() + ":" + contact.getPassword());
+		
+		
+		if (!contact.getUsername().equals("") && contact.getUsername() != null)
 			cri.andUsernameEqualTo(contact.getUsername());
-		if (this.objectAttrNullCheck(contact, "password"))
+		if (!contact.getPassword().equals("") && contact.getPassword() != null)
 			cri.andPasswordEqualTo(contact.getPassword());
 
 		ContactMapper vcontactMapper = sqlSession

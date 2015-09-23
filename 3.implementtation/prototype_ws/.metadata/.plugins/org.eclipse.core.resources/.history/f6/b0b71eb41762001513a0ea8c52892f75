@@ -14,12 +14,22 @@ public class BaseDao {
 		String attr = attrNameStart + attrNameEnd;
 
 		String methodName = new StringBuffer("get").append(attr).toString();
+		// System.out.println(methodName);
 		try {
 			Method method = classz.getMethod(methodName, null);
 			Object newObj = method.invoke(object, null);
+
+			// System.out.println(newObj.toString());
 			if (newObj != null && !newObj.toString().equals("")) {
 				returnValue = true;
 			}
+			// if(newObj instanceof Integer){
+			//
+			// }else if(newObj instanceof String){
+			//
+			// }else if(newObj instanceof Double){
+			//
+			// }
 		} catch (SecurityException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -42,7 +52,7 @@ public class BaseDao {
 	public static void main(String[] args) {
 		BaseDao dao = new BaseDao();
 		Contact contact = new Contact();
-		// contact.setUsername("");
+		contact.setUsername("xuchenf");
 		System.out.println(dao.objectAttrNullCheck(contact, "username"));
 	}
 

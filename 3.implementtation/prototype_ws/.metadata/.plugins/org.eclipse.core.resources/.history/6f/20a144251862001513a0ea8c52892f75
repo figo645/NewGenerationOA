@@ -14,6 +14,7 @@ public class BaseDao {
 		String attr = attrNameStart + attrNameEnd;
 
 		String methodName = new StringBuffer("get").append(attr).toString();
+		// System.out.println(methodName);
 		try {
 			Method method = classz.getMethod(methodName, null);
 			Object newObj = method.invoke(object, null);
