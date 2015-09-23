@@ -35,7 +35,7 @@
 		</sqlMapGenerator>
 
 		<!--ANNOTATEDMAPPER属性值使得生成的Mapper是Annotation的 -->
-		<javaClientGenerator type="XMLMAPPER"
+		<javaClientGenerator type="ANNOTATEDMAPPER"
 			targetPackage="cn.edu.ken.mybatis.mapper" targetProject="src/main/java">
 			<property name="enableSubPackages" value="true" />
 		</javaClientGenerator>
