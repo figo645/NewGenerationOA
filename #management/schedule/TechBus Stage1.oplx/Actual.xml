@@ -179,7 +179,7 @@
   <task id="t21">
     <title>数据库ER图</title>
     <effort>57600</effort>
-    <effort-done>46079.997253418</effort-done>
+    <effort-done>46079.99609375</effort-done>
     <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>
@@ -187,7 +187,7 @@
   <task id="t22">
     <title>数据库字段设计</title>
     <effort>86400</effort>
-    <effort-done>51839.9969100952</effort-done>
+    <effort-done>51839.99609375</effort-done>
     <start-constraint-date>2015-09-17T00:00:00.000Z</start-constraint-date>
     <assignment idref="r1"/>
     <start-no-earlier-than>2015-09-17T00:00:00.000Z</start-no-earlier-than>

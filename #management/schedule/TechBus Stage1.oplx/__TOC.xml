@@ -9,14 +9,14 @@
     <status-display>extended-alternate</status-display>
     <task-view>
       <split-view-divider-position>382</split-view-divider-position>
-      <outline x="0" y="1" w="382" h="551">
+      <outline x="0" y="303" w="382" h="566">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="267"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t12 t62 t13 t63 t64"/>
+        <expanded-items idrefs="t12 t62 t34 t63 t64"/>
       </outline>
-      <gantt-view x="723.5" y="1" w="553" h="551">
+      <gantt-view x="3382.5" y="303" w="568" h="566">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -63,14 +63,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="291" h="551">
+      <outline x="0" y="0" w="306" h="566">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r2"/>
       </outline>
-      <timeline x="-13" y="0" w="601" h="551">
+      <timeline x="-28" y="0" w="616" h="566">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -114,7 +114,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="275" h="517">
+      <outline x="0" y="0" w="290" h="532">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="139"/>
