@@ -11,6 +11,19 @@
     <change idref="t9" attribute="resourceLeveledDate" type="date" to="2015-09-22T00:00:00.000Z"/>
     <change idref="t10" attribute="resourceLeveledDate" type="date" to="2015-09-17T00:00:00.000Z"/>
   </task-change-set>
+  <task-change-set user="Ken" date="2015-09-17T16:15:57.119Z" timestamp="2015-09-17T16:15:57.119Z">
+    <change idref="t2" attribute="internalPrerequisitesString" type="string" from="1FS" resolved="yes"/>
+    <change idref="t3" attribute="internalPrerequisitesString" type="string" from="2FS" resolved="yes"/>
+    <change idref="t6" attribute="internalPrerequisitesString" type="string" from="1FS" resolved="yes"/>
+    <change idref="t9" attribute="internalPrerequisitesString" type="string" from="3FS" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ken" date="2015-09-19T07:14:00.641Z" timestamp="2015-09-19T07:14:00.641Z">
+    <change idref="t21" attribute="internalEffortDone" type="real" from="28800" to="57600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Ken" date="2015-09-19T07:14:29.170Z" timestamp="2015-09-19T07:14:29.170Z">
+    <change idref="t21" attribute="internalEffortDone" type="real" from="57600" to="46079.99725341797" resolved="yes"/>
+    <change idref="t22" attribute="internalEffortDone" type="real" from="34560" to="51839.99691009521" resolved="yes"/>
+  </task-change-set>
   <task-change-set user="Ken" date="2015-09-19T15:24:23.106Z" timestamp="2015-09-19T15:24:23.106Z">
     <change idref="t9" attribute="internalEffortDone" type="real" from="0" to="17280"/>
     <change idref="t20" attribute="internalEffortDone" type="real" from="0" to="8640"/>

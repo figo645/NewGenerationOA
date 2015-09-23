@@ -1,7 +1,0 @@
-127.0.0.1 - - [23/Sep/2015:09:53:38 +0800] "GET / HTTP/1.1" 404 951
-0:0:0:0:0:0:0:1%0 - - [23/Sep/2015:09:53:44 +0800] "GET /mavenweb/users/search.jsp HTTP/1.1" 200 358
-0:0:0:0:0:0:0:1%0 - - [23/Sep/2015:09:53:46 +0800] "POST /mavenweb/contact/search HTTP/1.1" 500 62523
-0:0:0:0:0:0:0:1%0 - - [23/Sep/2015:09:54:21 +0800] "POST /mavenweb/contact/search HTTP/1.1" 200 828
-0:0:0:0:0:0:0:1%0 - - [23/Sep/2015:09:54:24 +0800] "POST /mavenweb/contact/search HTTP/1.1" 200 828
-0:0:0:0:0:0:0:1%0 - - [23/Sep/2015:09:54:26 +0800] "POST /mavenweb/contact/search HTTP/1.1" 200 828
-0:0:0:0:0:0:0:1%0 - - [23/Sep/2015:09:54:29 +0800] "POST /mavenweb/contact/search HTTP/1.1" 200 828
