@@ -6,12 +6,13 @@ import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import cn.edu.ken.commons.dao.BaseDao;
 import cn.edu.ken.mybatis.mapper.ContactMapper;
 import cn.edu.ken.mybatis.model.Contact;
 import cn.edu.ken.mybatis.model.ContactExample;
 
 @Component
-public class ContactDao {
+public class ContactDao extends BaseDao {
 
 	@Autowired
 	private SqlSession sqlSession;
@@ -56,9 +57,15 @@ public class ContactDao {
 		System.out.println("searchByExampleContact");
 		ContactExample example = new ContactExample();
 		ContactExample.Criteria cri = example.createCriteria();
+		// //////////////////////////////////////////////////////////
 		System.out.println(contact.getUsername() + ":" + contact.getPassword());
-
 		
+		
+		if (!contact.getUsername().equals("") && contact.getUsername() != null)
+			cri.andUsernameEqualTo(contact.getUsername());
+		if (!contact.getPassword().equals("") && contact.getPassword() != null)
+			cri.andPasswordEqualTo(contact.getPassword());
+
 		ContactMapper vcontactMapper = sqlSession
 				.getMapper(ContactMapper.class);
 		List<Contact> returnList = vcontactMapper.selectByExample(example);

@@ -1,0 +1,14 @@
+package cn.edu.ken.commons.dao;
+
+public class BaseDao {
+	protected boolean objectAttrNullCheck(Object object,String attributeName){
+		Class classz = object.getClass();
+		String attrNameStart = attributeName.substring(0, 1);
+		String attrNameEnd = attributeName.substring(1, attributeName.length());
+		System.out.println(attrNameStart + attrNameEnd);
+//		String methodName = new StringBuffer("get").append(arg0)
+//		classz.getMethod(name, parameterTypes)
+		return true;
+	}
+	
+}

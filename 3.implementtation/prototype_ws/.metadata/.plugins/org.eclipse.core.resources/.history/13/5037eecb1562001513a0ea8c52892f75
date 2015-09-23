@@ -1,0 +1,8 @@
+package cn.edu.ken.commons.dao;
+
+public class BaseDao {
+	protected boolean objectAttrNullCheck(Object object,String attributeName){
+		return true;
+	}
+	
+}

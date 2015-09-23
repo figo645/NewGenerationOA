@@ -1,0 +1,20 @@
+package cn.edu.ken.commons.dao;
+
+public class BaseDao {
+	protected boolean objectAttrNullCheck(Object object,String attributeName){
+		Class classz = object.getClass();
+		String attrNameStart = attributeName.substring(0, 1).toUpperCase();
+		String attrNameEnd = attributeName.substring(1, attributeName.length());
+		String attr = attrNameStart+ attrNameEnd;
+		System.out.println(attr);
+		String methodName = new StringBuffer("get").append(attr);
+//		classz.getMethod(name, parameterTypes)
+		return true;
+	}
+
+	public static void main(String[] args) {
+		BaseDao dao = new BaseDao();
+		dao.objectAttrNullCheck("", "username");
+	}
+
+}
