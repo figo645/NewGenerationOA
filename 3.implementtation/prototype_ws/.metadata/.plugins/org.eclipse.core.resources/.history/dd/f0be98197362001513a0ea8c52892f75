@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>leftMenu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/jktool.js"></script>
+</head>
+<body>
+    <!-- 必须：一个左侧div菜单 -->
+    <div id="leftm">
+        <div id="button2">close<!-- 可选：一个内部btn --></div>
+        <div class="items">
+            <p>一篇文章</p>
+            <p>画廊</p>
+            <p>列表页</p>
+            <p>联系方式</p>
+            <p>More</p>
+        </div>
+    </div>
+ 
+    <!-- 必须：一个右推div包裹 -->
+    <div id="thebigpagewrap" class="thebigpagewrap">
+        <div id="button"><!-- 必须：一个外部button -->开关</div>
+        <div class="main">
+            <br><br>
+            <span>匆匆</span>
+            <h6>朱自清</h6>
+            <p>燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。但是，聪明的，你告诉我，我们的日子为什么一去不复返呢？——是有人偷了他们罢：那是谁？又藏在何处呢？是他们自己逃走了罢：现在又到了哪里呢？</p>
+        </div>
+    </div>
+</body>
+</html>
+ 
+<script>
+    $("#leftm").leftm("#button","#thebigpagewrap","#button2");
+</script>

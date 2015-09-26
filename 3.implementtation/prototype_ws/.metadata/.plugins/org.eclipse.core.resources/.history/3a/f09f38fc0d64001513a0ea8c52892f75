@@ -1,0 +1,45 @@
+package cn.edu.ken;
+
+import org.springframework.beans.factory.annotation.Autowired;
+4
+import org.springframework.http.HttpStatus;
+5
+import org.springframework.stereotype.Controller;
+6
+import org.springframework.web.bind.annotation.RequestMapping;
+7
+import org.springframework.web.bind.annotation.RequestMethod;
+8
+import org.springframework.web.bind.annotation.ResponseBody;
+9
+import org.springframework.web.bind.annotation.ResponseStatus;
+10
+ 
+11
+@Controller
+12
+public class SpringContentController {
+13
+    @Autowired UserDetails userDetails;
+14
+    @RequestMapping(value="/springcontent",
+15
+            method=RequestMethod.GET,produces={"application/xml", "application/json"})
+16
+    @ResponseStatus(HttpStatus.OK)
+17
+    public @ResponseBody
+18
+    UserDetails getUser() {
+19
+        UserDetails userDetails = new UserDetails();
+20
+        userDetails.setUserName("Praveen");
+21
+        userDetails.setEmailId("praveen@gmail.com");
+22
+        return userDetails;
+23
+    }
+24
+}
