@@ -1,0 +1,23 @@
+<html>
+<body>
+	<h2>Add Contact</h2>
+	<form method="post"
+		action="<%=request.getContextPath()%>/contact/addsearch">
+		<table>
+			<tr>
+				<td>username</td>
+				<td><input type="text" name="username" id="username"></td>
+			</tr>
+			<tr>
+				<td>password</td>
+				<td><input
+			type="text" name="password" id="password"></td>
+			</tr>
+		
+		</table>
+		
+		username: password: <input type="submit"
+			value="submit">
+	</form>
+</body>
+</html>

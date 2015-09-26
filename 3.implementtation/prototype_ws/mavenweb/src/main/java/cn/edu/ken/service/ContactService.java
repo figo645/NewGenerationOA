@@ -18,23 +18,30 @@ public class ContactService {
 		int returnValue = contactDao.login(contact);
 		return returnValue;
 	}
-	
-	public void addContact(Contact contact){
-		//contact.setIdcontact(1);
+
+	public void addContact(Contact contact) {
+		// contact.setIdcontact(1);
 		contact.setContacttypeIdcontacttype(1);
 		contact.setDepartmentIddepartment(1);
 		contactDao.addContact(contact);
 	}
-	
-	public void updateContact(Contact contact){
+
+	public Contact searchById(int id) {
+		Contact contact = new Contact();
+		contact.setIdcontact(id);
+		List<Contact> onlyContact = contactDao.searchByExample(contact);
+		return onlyContact.get(0);
+	}
+
+	public void updateContact(Contact contact) {
 		contactDao.updateContact(contact);
 	}
-	
-	public List<Contact> searchByContact(Contact contact){
+
+	public List<Contact> searchByContact(Contact contact) {
 		return contactDao.searchList(contact);
 	}
-	
-	public List<Contact> searchByCondition(Contact contact){
+
+	public List<Contact> searchByCondition(Contact contact) {
 		return contactDao.searchByExample(contact);
 	}
 
