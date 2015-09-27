@@ -288,8 +288,8 @@ body {
 										<h2 onClick="javascript:ShowMenu(this,'NO30')">- 任务管理</h2>
 										<ul id="NO30" class="no">
 											<li>添加任务</li>
-											<li>查询任务</li>
 											<li>修改任务</li>
+											<li>查询任务</li>
 											<li>删除任务</li>
 										</ul>
 										<h2 onClick="javascript:ShowMenu(this,'NO31')">- 工作日志管理</h2>

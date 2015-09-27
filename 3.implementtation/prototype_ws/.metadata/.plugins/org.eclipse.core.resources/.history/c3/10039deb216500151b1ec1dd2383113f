@@ -288,16 +288,18 @@ body {
 										<h2 onClick="javascript:ShowMenu(this,'NO30')">- 任务管理</h2>
 										<ul id="NO30" class="no">
 											<li>添加任务</li>
-											<li>查询任务</li>
 											<li>修改任务</li>
+											<li>查询任务</li>
 											<li>删除任务</li>
 										</ul>
-										<h2 onClick="javascript:ShowMenu(this,'NO31')">- 工作日志管理</h2>
+										<h2 onClick="javascript:ShowMenu(this,'NO31')">- 四级菜单D_2</h2>
 										<ul id="NO31" class="no">
-											<li>添加日志</li>
-											<li>查询日志</li>
-											<li>修改日志</li>
-											<li>删除日志</li>
+											<li>四级菜单D_0</li>
+											<li>四级菜单D_1</li>
+											<li>四级菜单D_2</li>
+											<li>四级菜单D_3</li>
+											<li>四级菜单D_4</li>
+											<li>四级菜单D_5</li>
 										</ul>
 									</span>
 								</div>

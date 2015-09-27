@@ -282,3 +282,9 @@
 0:0:0:0:0:0:0:1%0 - - [27/Sep/2015:22:06:40 +0800] "POST /mavenweb/contact/search HTTP/1.1" 200 3284
 0:0:0:0:0:0:0:1%0 - - [27/Sep/2015:22:06:45 +0800] "POST /mavenweb/contact/deleteids HTTP/1.1" 200 643
 0:0:0:0:0:0:0:1%0 - - [27/Sep/2015:22:06:46 +0800] "POST /mavenweb/contact/search HTTP/1.1" 200 2808
+127.0.0.1 - - [27/Sep/2015:22:13:54 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1%0 - - [27/Sep/2015:22:14:00 +0800] "GET /mavenweb/index.jsp HTTP/1.1" 200 7386
+0:0:0:0:0:0:0:1%0 - - [27/Sep/2015:22:14:00 +0800] "GET /mavenweb/content.jsp HTTP/1.1" 200 438
+0:0:0:0:0:0:0:1%0 - - [27/Sep/2015:22:14:00 +0800] "GET /mavenweb/css/bootstrap.min.css HTTP/1.1" 404 974
+0:0:0:0:0:0:0:1%0 - - [27/Sep/2015:22:14:00 +0800] "GET /mavenweb/js/bootstrap.min.js HTTP/1.1" 404 974
+0:0:0:0:0:0:0:1%0 - - [27/Sep/2015:22:14:00 +0800] "GET /mavenweb/css/bootstrap-theme.min.css HTTP/1.1" 404 974
