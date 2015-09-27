@@ -1,0 +1,5 @@
+package cn.edu.ken.commons.util;
+
+public class ReflectionUtil {
+
+}

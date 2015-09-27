@@ -1,0 +1,13 @@
+package cn.edu.ken.commons.dao;
+
+import java.util.Map;
+
+public interface IBaseDao {
+	public int executeSQL(String sql, Map keyValue);
+	
+	public int querySQL(String sql, Map keyValue);
+	
+	public int add(Object object){
+		
+	}
+}

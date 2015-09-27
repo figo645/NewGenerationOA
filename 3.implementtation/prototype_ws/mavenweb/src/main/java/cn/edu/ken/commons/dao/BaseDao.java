@@ -2,10 +2,18 @@ package cn.edu.ken.commons.dao;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 
 import cn.edu.ken.mybatis.model.Contact;
 
-public class BaseDao {
+public abstract class BaseDao implements IBaseDao {
+	@Autowired
+	private JdbcTemplate jdbcTemplate;
+
 	protected boolean objectAttrNullCheck(Object object, String attributeName) {
 		boolean returnValue = false;
 		Class classz = object.getClass();
@@ -39,11 +47,14 @@ public class BaseDao {
 		return returnValue;
 	}
 
-	public static void main(String[] args) {
-		BaseDao dao = new BaseDao();
-		Contact contact = new Contact();
-		// contact.setUsername("");
-		System.out.println(dao.objectAttrNullCheck(contact, "username"));
+	protected int executeSQL(String sql, Map keyValue) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	protected int querySQL(String sql, Map keyValue) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }

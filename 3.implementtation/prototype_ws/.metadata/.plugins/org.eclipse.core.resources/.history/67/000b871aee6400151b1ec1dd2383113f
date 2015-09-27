@@ -1,0 +1,18 @@
+package cn.edu.ken.commons.dao;
+
+import java.util.List;
+import java.util.Map;
+
+public interface IBaseDao {
+	public int executeSQL(String sql, Map keyValue);
+	
+	public int querySQL(String sql, Map keyValue);
+	
+	public <T> int insert(T t);
+	
+	public <T> int update(T t);
+	
+	public <T> T findById(int id);
+	
+	public <T> List<T> findAll();
+}

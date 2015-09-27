@@ -1,0 +1,24 @@
+package cn.edu.ken.commons.dao;
+
+import java.io.Serializable;
+import java.util.List;
+import java.util.Map;
+
+public interface IBaseDao<T,PK extends Serializable> {
+	public int executeSQL(String sql, Map keyValue);
+
+	public int querySQL(String sql, Map keyValue);
+
+	public int insert(T1 t);
+
+	public int update(T1 t);
+
+	public int deleteById(int id);
+
+	public int retireById(int id);
+
+	public <T> T findById(int id);
+
+	public <T> List<T> findAll();
+
+}

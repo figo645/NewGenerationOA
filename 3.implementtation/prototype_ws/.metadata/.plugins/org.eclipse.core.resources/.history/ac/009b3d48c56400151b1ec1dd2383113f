@@ -1,0 +1,110 @@
+package cn.edu.ken.dao;
+
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import cn.edu.ken.commons.dao.BaseDao;
+import cn.edu.ken.mybatis.mapper.ContactMapper;
+import cn.edu.ken.mybatis.model.Contact;
+import cn.edu.ken.mybatis.model.ContactExample;
+
+@Component
+public class ContactDao extends BaseDao {
+
+	@Autowired
+	private SqlSession sqlSession;
+
+	/**
+	 * 
+	 * @param contact
+	 * @return if return value = 0 then login failed if return value = 1 then
+	 *         login okay if return value > 1 then something wrong with
+	 *         duplicated username or password
+	 */
+	public int login(Contact contact) {
+		ContactExample example = new ContactExample();
+		ContactExample.Criteria cri = example.createCriteria();
+		cri.andUsernameEqualTo(contact.getUsername());
+		cri.andPasswordEqualTo(contact.getPassword());
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		int returnValue = vcontactMapper.countByExample(example);
+		return returnValue;
+	}
+
+	public void addContact(Contact contact) {
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		vcontactMapper.insert(contact);
+		sqlSession.commit();
+
+	}
+
+	public void updateContact(Contact contact) {
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		// only update those non-Null columns
+		vcontactMapper.updateByPrimaryKeySelective(contact);
+	}
+
+	public List<Contact> searchByExample(Contact contact) {
+		System.out.println("searchByExampleContact");
+		ContactExample example = new ContactExample();
+		ContactExample.Criteria cri = example.createCriteria();
+		// non-Null check for the where clause
+		if (this.objectAttrNullCheck(contact, "username"))
+			cri.andUsernameEqualTo(contact.getUsername());
+		if (this.objectAttrNullCheck(contact, "password"))
+			cri.andPasswordEqualTo(contact.getPassword());
+
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		List<Contact> returnList = vcontactMapper.selectByExample(example);
+		return returnList;
+	}
+
+	public List<Contact> searchList(Contact contact) {
+		System.out.println("searchList");
+		ContactExample example = new ContactExample();
+		ContactExample.Criteria cri = example.createCriteria();
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+
+		List<Contact> returnList = vcontactMapper.selectByExample(example);
+		return returnList;
+	}
+
+	/**
+	 * update retire column to a non-zero number
+	 * 
+	 * @param contact
+	 * @return
+	 */
+	public int retire(Contact contact) {
+		// TODO Auto-generated method stub
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		contact.setRetired(true);
+		// only update those non-Null columns
+		int value = vcontactMapper.updateByPrimaryKeySelective(contact);
+		return value;
+	}
+
+	/**
+	 * physicially delete one row
+	 * 
+	 * @param contact
+	 * @return
+	 */
+	public int delete(Contact contact) {
+		// TODO Auto-generated method stub
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		// only update those non-Null columns
+		int value = vcontactMapper.deleteByPrimaryKey(contact.getIdcontact());
+		return value;
+	}
+}

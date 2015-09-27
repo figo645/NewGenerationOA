@@ -262,28 +262,23 @@ body {
 										</ul>
 									</span>
 
-									<h1 onClick="javascript:ShowMenu(this,'NO2')">- 三级菜单C</h1>
+									<h1 onClick="javascript:ShowMenu(this,'NO2')">- 系统管理</h1>
 									<span id="NO2" class="no">
-										<h2 onClick="javascript:ShowMenu(this,'NO20')">- 三级菜单C_1</h2>
+										<h2 onClick="javascript:ShowMenu(this,'NO20')">- 类别管理</h2>
 										<ul id="NO20" class="no">
-											<li>三级菜单C_0</li>
-											<li>三级菜单C_1</li>
-											<li>三级菜单C_2</li>
-											<li>三级菜单C_3</li>
-											<li>三级菜单C_4</li>
-											<li>三级菜单C_5</li>
-											<li>三级菜单C_6</li>
-											<li>三级菜单C_7</li>
-											<li>三级菜单C_8</li>
-											<li>三级菜单C_9</li>
+											<li>用户类别</li>
+											<li>部门类别关系管理</li>
+											<li>文档类别</li>
+											<li>活动类别</li>
+											<li>笔记类别</li>
+											<li>会议类别</li>
 										</ul>
-										<h2 onClick="javascript:ShowMenu(this,'NO21')">- 三级菜单C_2</h2>
+										<h2 onClick="javascript:ShowMenu(this,'NO21')">- 菜单管理</h2>
 										<ul id="NO21" class="no">
-											<li>三级菜单C_0</li>
-											<li>三级菜单C_1</li>
-											<li>三级菜单C_2</li>
-											<li>三级菜单C_3</li>
-											<li>三级菜单C_4</li>
+											<li>主菜单大类管理</li>
+											<li>一级菜单管理</li>
+											<li>二级菜单管理</li>
+											<li>三级菜单管理</li>
 
 										</ul>
 									</span>

@@ -1,18 +1,14 @@
 package cn.edu.ken.commons.json;
 
-import java.io.IOException;
-
-import org.codehaus.jackson.JsonParseException;
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
-import org.junit.Test;
-
-import net.sf.json.JSONObject;
-import net.sf.json.xml.XMLSerializer;
-import cn.edu.ken.model.Book;
 //import cn.edu.ken.model.Contact;
 import junit.framework.Assert;
 import junit.framework.TestCase;
+import net.sf.json.JSONObject;
+import net.sf.json.xml.XMLSerializer;
+
+import org.junit.Test;
+
+import cn.edu.ken.mybatis.model.Contact;
 
 public class JSONTestUnit extends TestCase {
 
@@ -22,14 +18,14 @@ public class JSONTestUnit extends TestCase {
 
 	@Test
 	public void testJSONObject001() {
-		JSONObject jsonObject = JSONObject.fromObject(new Book());
+		JSONObject jsonObject = JSONObject.fromObject(new Contact());
 		System.out.println("testJSONObject001:"+jsonObject);
 		Assert.assertFalse("".equals(jsonObject.toString()));
 	}
 
 	@Test
 	public void testJSONObjectToXMLTest002() {
-		JSONObject jsonObject = JSONObject.fromObject(new Book());
+		JSONObject jsonObject = JSONObject.fromObject(new Contact());
 		try {
 			XMLSerializer xml = new XMLSerializer();
 			String xmlStr = xml.write(jsonObject);

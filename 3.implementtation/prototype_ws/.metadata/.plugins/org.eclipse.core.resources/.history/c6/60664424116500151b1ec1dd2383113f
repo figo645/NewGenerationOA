@@ -1,0 +1,142 @@
+package cn.edu.ken.business.dao;
+
+import java.io.Serializable;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import cn.edu.ken.commons.dao.BaseDao;
+import cn.edu.ken.mybatis.mapper.ContactMapper;
+import cn.edu.ken.mybatis.model.Contact;
+import cn.edu.ken.mybatis.model.ContactExample;
+
+@Component
+public class ContactDao extends BaseDao {
+
+	@Autowired
+	private SqlSession sqlSession;
+
+	/**
+	 * 
+	 * @param contact
+	 * @return if return value = 0 then login failed if return value = 1 then
+	 *         login okay if return value > 1 then something wrong with
+	 *         duplicated username or password
+	 */
+	public int login(Contact contact) {
+		ContactExample example = new ContactExample();
+		ContactExample.Criteria cri = example.createCriteria();
+		cri.andUsernameEqualTo(contact.getUsername());
+		cri.andPasswordEqualTo(contact.getPassword());
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		int returnValue = vcontactMapper.countByExample(example);
+		return returnValue;
+	}
+
+	public void addContact(Contact contact) {
+
+	}
+
+	public void updateContact(Contact contact) {
+
+	}
+
+	public List<Contact> searchByExample(Contact contact) {
+		System.out.println("searchByExampleContact");
+		ContactExample example = new ContactExample();
+		ContactExample.Criteria cri = example.createCriteria();
+		// non-Null check for the where clause
+		if (this.objectAttrNullCheck(contact, "username"))
+			cri.andUsernameEqualTo(contact.getUsername());
+		if (this.objectAttrNullCheck(contact, "password"))
+			cri.andPasswordEqualTo(contact.getPassword());
+
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		List<Contact> returnList = vcontactMapper.selectByExample(example);
+		return returnList;
+	}
+
+
+	@Override
+	public int executeSQL(String sql, Map keyValue) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int querySQL(String sql, Map keyValue) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int insert(Object t) {
+		// TODO Auto-generated method stub
+		Contact contact = (Contact) t;
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		int value = vcontactMapper.insert(contact);
+		sqlSession.commit();
+		return value;
+	}
+
+	@Override
+	public int update(Object t) {
+		Contact contact = (Contact) t;
+		// TODO Auto-generated method stub
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		// only update those non-Null columns
+		int value = vcontactMapper.updateByPrimaryKeySelective(contact);
+		return value;
+	}
+
+	@Override
+	public int deleteById(Serializable id) {
+		// TODO Auto-generated method stub
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		// only update those non-Null columns
+		int value = vcontactMapper.deleteByPrimaryKey((Integer) id);
+		return value;
+	}
+
+	@Override
+	public int retireById(Serializable id) {
+		Contact contact = new Contact();
+		// TODO Auto-generated method stub
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		contact.setRetired((Integer) id);
+		// only update those non-Null columns
+		int value = vcontactMapper.updateByPrimaryKeySelective(contact);
+		return value;
+	}
+
+	@Override
+	public Object findById(Serializable id) {
+		System.out.println("searchByExampleContact");
+		ContactExample example = new ContactExample();
+		ContactExample.Criteria cri = example.createCriteria();
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		Contact returnContact = vcontactMapper.selectByPrimaryKey((Integer) id);
+		return returnContact;
+	}
+
+	@Override
+	public List findAll() {
+		System.out.println("searchList");
+		ContactExample example = new ContactExample();
+		ContactExample.Criteria cri = example.createCriteria();
+		ContactMapper vcontactMapper = sqlSession
+				.getMapper(ContactMapper.class);
+		List<Contact> returnList = vcontactMapper.selectByExample(example);
+		return returnList;
+	}
+}
