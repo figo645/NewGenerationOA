@@ -35,7 +35,9 @@ public class ContactDao extends BaseDao {
 		return returnValue;
 	}
 
+	// 模拟数据库操作
 	public void addContact(Contact contact) {
+		System.out.print("Add");
 		ContactMapper vcontactMapper = sqlSession
 				.getMapper(ContactMapper.class);
 		vcontactMapper.insert(contact);
@@ -44,9 +46,10 @@ public class ContactDao extends BaseDao {
 	}
 
 	public void updateContact(Contact contact) {
+		System.out.print("Update");
 		ContactMapper vcontactMapper = sqlSession
 				.getMapper(ContactMapper.class);
-		// only update those non-Null columns
+		// 只更新不为空的字段，所以是可以有选择性的更新，只更新需要的
 		vcontactMapper.updateByPrimaryKeySelective(contact);
 	}
 
@@ -54,7 +57,7 @@ public class ContactDao extends BaseDao {
 		System.out.println("searchByExampleContact");
 		ContactExample example = new ContactExample();
 		ContactExample.Criteria cri = example.createCriteria();
-		// non-Null check for the where clause
+		// //////////////////////////////////////////////////////////
 		if (this.objectAttrNullCheck(contact, "username"))
 			cri.andUsernameEqualTo(contact.getUsername());
 		if (this.objectAttrNullCheck(contact, "password"))
@@ -76,22 +79,12 @@ public class ContactDao extends BaseDao {
 		List<Contact> returnList = vcontactMapper.selectByExample(example);
 		return returnList;
 	}
-	
-	/**
-	 * update retire column to a non-zero number
-	 * @param contact
-	 * @return
-	 */
+
 	public int retire(Contact contact) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
-	/**
-	 * physicially delete one row
-	 * @param contact
-	 * @return
-	 */
+
 	public int delete(Contact contact) {
 		// TODO Auto-generated method stub
 		return 0;

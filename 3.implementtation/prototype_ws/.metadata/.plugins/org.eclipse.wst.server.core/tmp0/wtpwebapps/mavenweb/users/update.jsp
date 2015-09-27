@@ -5,6 +5,7 @@
 	<h2>修改用户</h2>
 	<form method="post"
 		action="<%=request.getContextPath()%>/contact/update">
+		<input type="hidden" name="idcontact" value="${contact.idcontact}">
 		<table>
 			<tr>
 				<td>username</td>

@@ -23,7 +23,7 @@
 					<td><input type="checkbox" name="contactcheck" id="concheck" /> </td>
 					<td>${contact.username}</td>
 					<td>${contact.password}</td>
-					<td><a href="<%=request.getContextPath()%>/users/preupdate/${contact.idcontact}">修改</a></td>
+					<td><a href="<%=request.getContextPath()%>/contact/preupdate/${contact.idcontact}">修改</a></td>
 				</tr>
 			</c:forEach>
 

@@ -44,6 +44,7 @@ public class ContactDao extends BaseDao {
 	}
 
 	public void updateContact(Contact contact) {
+		System.out.print("Update");
 		ContactMapper vcontactMapper = sqlSession
 				.getMapper(ContactMapper.class);
 		// only update those non-Null columns
@@ -54,7 +55,7 @@ public class ContactDao extends BaseDao {
 		System.out.println("searchByExampleContact");
 		ContactExample example = new ContactExample();
 		ContactExample.Criteria cri = example.createCriteria();
-		// non-Null check for the where clause
+		// //////////////////////////////////////////////////////////
 		if (this.objectAttrNullCheck(contact, "username"))
 			cri.andUsernameEqualTo(contact.getUsername());
 		if (this.objectAttrNullCheck(contact, "password"))

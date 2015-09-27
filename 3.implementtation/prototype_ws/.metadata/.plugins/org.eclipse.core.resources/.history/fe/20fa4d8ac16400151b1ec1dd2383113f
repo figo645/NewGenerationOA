@@ -49,7 +49,7 @@ public class ContactController {
 
 	@RequestMapping("/update")
 	public String update(Contact contact) {
-		contactService.updateContact(contact);
+		contactService.searchByContact(contact);
 		return "users/search";
 	}
 

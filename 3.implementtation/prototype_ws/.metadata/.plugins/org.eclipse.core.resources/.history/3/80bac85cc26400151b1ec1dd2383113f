@@ -44,13 +44,5 @@ public class ContactService {
 	public List<Contact> searchByCondition(Contact contact) {
 		return contactDao.searchByExample(contact);
 	}
-	
-	public int retireContact(Contact contact){
-		return contactDao.retire(contact);
-	}
-	
-	public int deleteContact(Contact contact){
-		return contactDao.delete(contact);
-	}
 
 }
