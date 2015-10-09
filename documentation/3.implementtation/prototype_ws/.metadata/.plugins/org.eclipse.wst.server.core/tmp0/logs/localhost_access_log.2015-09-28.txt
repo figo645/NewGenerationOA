@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1%0 - - [28/Sep/2015:00:08:14 +0800] "GET /mavenweb/users/search.jsp HTTP/1.1" 200 643
+0:0:0:0:0:0:0:1%0 - - [28/Sep/2015:00:08:14 +0800] "GET /mavenweb/users/search.jsp HTTP/1.1" 200 643
+0:0:0:0:0:0:0:1%0 - - [28/Sep/2015:00:08:15 +0800] "POST /mavenweb/contact/search HTTP/1.1" 200 2808
+0:0:0:0:0:0:0:1%0 - - [28/Sep/2015:00:11:32 +0800] "GET /mavenweb/users/register.jsp HTTP/1.1" 200 404
+0:0:0:0:0:0:0:1%0 - - [28/Sep/2015:00:11:33 +0800] "GET /mavenweb/users/search.jsp HTTP/1.1" 200 643
+0:0:0:0:0:0:0:1%0 - - [28/Sep/2015:00:11:34 +0800] "POST /mavenweb/contact/search HTTP/1.1" 200 2808
+0:0:0:0:0:0:0:1%0 - - [28/Sep/2015:00:23:21 +0800] "GET /mavenweb/users/search.jsp HTTP/1.1" 200 643
+0:0:0:0:0:0:0:1%0 - - [28/Sep/2015:00:23:22 +0800] "POST /mavenweb/contact/search HTTP/1.1" 200 2808
